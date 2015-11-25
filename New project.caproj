@@ -51,7 +51,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="18" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2178932187771344" speed="5">
+                <animation framecount="18" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="2178932187771344" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
                         <collision-poly>
                             <point x="0.283309" y="0.128571" />
@@ -197,6 +197,26 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="7987982156669941" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                        <collision-poly>
+                            <point x="0.300586" y="0.13151" />
+                            <point x="0.362171" y="0.134115" />
+                            <point x="0.392962" y="0.514323" />
+                            <point x="0.274927" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="4971777287107919" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                        <collision-poly>
+                            <point x="0.303519" y="0.134115" />
+                            <point x="0.354839" y="0.135417" />
+                            <point x="0.395895" y="0.514323" />
+                            <point x="0.278592" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Sprite2" sid="9707416619461477">
@@ -237,14 +257,6 @@
         <object-type name="Keyboard" sid="4768441257489321">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Sprite4" sid="4910158042595581">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5032345989072121" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite5" sid="4438125558115114">
             <plugin id="Sprite" />
             <animation-folder>
@@ -270,6 +282,24 @@
             <plugin id="Text" />
         </object-type>
         <object-type name="Text4" sid="5964398404496528">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite4" sid="1573846639824846">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2207055883622881" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="0.192" />
+                            <point x="1" y="0.2" />
+                            <point x="1" y="0.22" />
+                            <point x="0.00399999" y="0.216" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="1354441244099174">
             <plugin id="Text" />
         </object-type>
     </object-folder>

@@ -46,8 +46,41 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="8174345475939926" type="System">
-                    <param id="0" name="Layout">Layout 2</param>
+                <action id="-43" name="Go to next/previous layout" sid="1509823531593478" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2635785092721484">
+            <conditions>
+                <condition behavior="Platform" id="8" name="On moved" sid="4754976305897444" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6097380117440808" type="Sprite">
+                    <param id="0" name="Animation">&quot;Running&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5836076606081811">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="1450955399259224" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="8863412097091412" type="Sprite">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6253980016058022">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="6371681417307375" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="1834771729513745" type="Sprite">
+                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
