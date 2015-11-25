@@ -286,6 +286,11 @@
         </object-type>
         <object-type name="Sprite4" sid="1573846639824846">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="554786183386613">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2207055883622881" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -307,6 +312,7 @@
     <layout-folder>
         <layout>Layout 1.xml</layout>
         <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>

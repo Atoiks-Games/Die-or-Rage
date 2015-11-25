@@ -209,8 +209,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>355</x>
-                        <y>251</y>
+                        <x>354</x>
+                        <y>257</y>
                         <z>0</z>
                         <width>257.437561035</width>
                         <height>270.661621094</height>
@@ -228,13 +228,20 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>392</x>
-                        <y>209</y>
+                        <x>357</x>
+                        <y>206</y>
                         <z>0</z>
-                        <width>250</width>
+                        <width>182</width>
                         <height>250</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
