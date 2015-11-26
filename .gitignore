@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.uistate.xml
 
 # Runtime data
 pids
@@ -73,3 +74,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.backup1
