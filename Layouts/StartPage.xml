@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="WelcomeText" uid="19">
+                <instance type="txtWelcomeText" uid="19">
                     <properties>
                         <text>Die or Rage!</text>
                         <initial-visibility>Visible</initial-visibility>

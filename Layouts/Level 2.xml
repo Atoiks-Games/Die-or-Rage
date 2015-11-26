@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 2</name>
+    <name>Level 2</name>
     <sid>952734444021687</sid>
     <event-sheet>Event sheet 1</event-sheet>
     <size>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="4">
+                <instance type="sprRyan" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Idle</initial-animation>
@@ -67,7 +67,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="10">
+                <instance type="sprSimplePlatform" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -96,7 +96,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="11">
+                <instance type="sprRyansHouse" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -118,7 +118,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text4" uid="12">
+                <instance type="txtPeddle" uid="12">
                     <properties>
                         <text>Peddle</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -145,7 +145,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text3" uid="13">
+                <instance type="txtKatie" uid="13">
                     <properties>
                         <text>Katie</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -172,7 +172,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="14">
+                <instance type="txtRIP" uid="14">
                     <properties>
                         <text>RIP</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -199,7 +199,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="15">
+                <instance type="sprLava" uid="15">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -221,7 +221,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="16">
+                <instance type="sprLavaPlatform" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -250,7 +250,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text5" uid="17">
+                <instance type="txtInstructions2" uid="17">
                     <properties>
                         <text>Find a way to kill yourself</text>
                         <initial-visibility>Visible</initial-visibility>
