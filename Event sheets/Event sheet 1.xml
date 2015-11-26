@@ -92,7 +92,7 @@
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="7597248120735839" type="sprSwitch">
-                    <param id="0" name="Animation">&quot;Animation 2&quot;</param>
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="3772200574210158" type="sprLavaPlatform" />
