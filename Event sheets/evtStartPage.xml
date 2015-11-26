@@ -3,13 +3,59 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtStartPage</name>
     <events>
+        <variable comment="Plays intro video when val = 0. Skips video and displays replay intro afterwards" constant="0" name="playIntroVideo" sid="6208034950599045" static="0" type="number">0</variable>
         <event-block sid="6590954820786297">
             <conditions>
                 <condition id="0" name="On clicked" sid="9227741208543594" type="btnGameStart" />
             </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5143404171368864">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1526231772679281" type="System">
+                            <param id="0" name="Variable">playIntroVideo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7812001087618521" type="System">
+                            <param id="0" name="Layout">IntroVideo</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3971562866250917">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="4247913781942614" type="System" />
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="4208811371399599">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9750085984533458" type="System">
+                            <param id="0" name="Variable">playIntroVideo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="5045520735731483" type="btnReplayIntro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="2179634533805167" type="System">
+                            <param id="0" name="Layout">Level 1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3953450840216932">
+            <conditions>
+                <condition id="0" name="On clicked" sid="7402049613271221" type="btnReplayIntro" />
+            </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="9320437573618083" type="System">
-                    <param id="0" name="Layout">Level 1</param>
+                <action id="-2" name="Go to layout" sid="8141251981898033" type="System">
+                    <param id="0" name="Layout">IntroVideo</param>
                 </action>
             </actions>
         </event-block>
