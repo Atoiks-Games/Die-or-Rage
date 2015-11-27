@@ -98,5 +98,18 @@
                 <action id="-9" name="Destroy" sid="3772200574210158" type="sprLavaPlatform" />
             </actions>
         </event-block>
+        <event-block sid="9928122558057698">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="5989996918526686" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
+                    <param id="0" name="Audio file">inGameSound</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">50</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
