@@ -2,7 +2,7 @@
 <c2layout>
     <name>Level 4</name>
     <sid>186977955442369</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>Event sheet 1</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,6 +29,49 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="sprRyan" uid="9">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Idle</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>330</max-speed>
+                                <acceleration>1500</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>260</x>
+                        <y>197</y>
+                        <z>0</z>
+                        <width>329.337158203</width>
+                        <height>180.577972412</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="sprLava" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -39,14 +82,65 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>403</x>
-                        <y>228</y>
+                        <x>579</x>
+                        <y>236</y>
                         <z>0</z>
                         <width>181.236038208</width>
                         <height>160.231674194</height>
                         <depth>0</depth>
                         <hotspotX>0.482954532</hotspotX>
                         <hotspotY>0.493243247</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprSimplePlatform" uid="7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>265</x>
+                        <y>621</y>
+                        <z>0</z>
+                        <width>241.672744751</width>
+                        <height>282.548187256</height>
+                        <depth>0</depth>
+                        <hotspotX>1.092920303</hotspotX>
+                        <hotspotY>1.494565248</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprRyansHouse" uid="8">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>219</x>
+                        <y>198</y>
+                        <z>0</z>
+                        <width>186</width>
+                        <height>129</height>
+                        <depth>0</depth>
+                        <hotspotX>1.211934209</hotspotX>
+                        <hotspotY>0.980113626</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
