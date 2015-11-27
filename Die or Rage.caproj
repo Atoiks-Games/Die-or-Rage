@@ -225,6 +225,16 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
+                    <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                        <collision-poly>
+                            <point x="0.00701754" y="0.224561" />
+                            <point x="0.99527" y="0.301754" />
+                            <point x="0.991762" y="0.77193" />
+                            <point x="0" y="0.77193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="sprSimplePlatform" sid="9707416619461477">
@@ -267,6 +277,11 @@
         </object-type>
         <object-type name="sprRyansHouse" sid="4438125558115114">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6910764937561096">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8087997873608529" speed="5">
                     <frame duration="1" hotspotX="1.21193" hotspotY="0.980114" original-source="C:\Users\gui\Downloads\House.png">

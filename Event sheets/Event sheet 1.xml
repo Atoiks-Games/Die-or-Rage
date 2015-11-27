@@ -111,5 +111,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1680738395685589">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5419715971863039" type="Keyboard">
+                    <param id="0" name="Key">17 (Ctrl)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="8100909978213325" type="sprRyan">
+                    <param id="0" name="Animation">&quot;Crouch&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
