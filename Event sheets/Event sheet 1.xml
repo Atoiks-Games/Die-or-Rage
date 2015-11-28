@@ -100,14 +100,14 @@
         </event-block>
         <event-block sid="9928122558057698">
             <conditions>
-                <condition id="-25" name="On loader layout complete" sid="5989996918526686" type="System" />
+                <condition id="4" inverted="1" name="Is any playing" sid="5989996918526686" type="inGameMusic" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
                     <param id="0" name="Audio file">inGameSound</param>
-                    <param id="2" name="Loop">0</param>
+                    <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">50</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
                 </action>
             </actions>
         </event-block>
