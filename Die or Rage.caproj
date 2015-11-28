@@ -366,11 +366,13 @@
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
         <layout>Level 4.xml</layout>
+        <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>evtStartPage.xml</event-sheet>
         <event-sheet>evtIntroVideo.xml</event-sheet>
+        <event-sheet>evtIntroHell.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />
