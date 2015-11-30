@@ -57,7 +57,7 @@
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="6097380117440808" type="sprRyan">
-                    <param id="0" name="Animation">&quot;Running&quot;</param>
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>

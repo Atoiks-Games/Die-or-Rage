@@ -62,8 +62,8 @@
                 <animation framecount="18" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="2178932187771344" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
                         <collision-poly>
-                            <point x="0.283309" y="0.128571" />
-                            <point x="0.375549" y="0.124675" />
+                            <point x="0.293558" y="0.135065" />
+                            <point x="0.371157" y="0.136363" />
                             <point x="0.393119" y="0.512987" />
                             <point x="0.279649" y="0.512987" />
                         </collision-poly>
@@ -215,13 +215,21 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="1" loop="0" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="4971777287107919" speed="1">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.498698" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                <animation framecount="2" loop="0" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="4971777287107919" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jump Jeff 1.png">
                         <collision-poly>
-                            <point x="0.300618" y="0.138436" />
-                            <point x="0.357479" y="0.137279" />
-                            <point x="0.386364" y="0.514323" />
-                            <point x="0.279325" y="0.514323" />
+                            <point x="0.30132" y="0.136719" />
+                            <point x="0.357038" y="0.135417" />
+                            <point x="0.38783" y="0.514323" />
+                            <point x="0.288856" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jump Jeff 2.png">
+                        <collision-poly>
+                            <point x="0.306452" y="0.132813" />
+                            <point x="0.356305" y="0.138021" />
+                            <point x="0.373901" y="0.514324" />
+                            <point x="0.284457" y="0.514323" />
                         </collision-poly>
                     </frame>
                 </animation>
