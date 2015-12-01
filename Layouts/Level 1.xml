@@ -42,7 +42,7 @@
                                 <max-speed>330</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
-                                <jump-strength>400</jump-strength>
+                                <jump-strength>600</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
@@ -89,14 +89,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>266.678894043</x>
-                        <y>544.000732422</y>
+                        <x>1711</x>
+                        <y>1446</y>
                         <z>0</z>
-                        <width>241.672744751</width>
-                        <height>282.548187256</height>
+                        <width>221</width>
+                        <height>258</height>
                         <depth>0</depth>
-                        <hotspotX>1.092920303</hotspotX>
-                        <hotspotY>1.494565248</hotspotY>
+                        <hotspotX>7.754966736</hotspotX>
+                        <hotspotY>5.16993475</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -111,14 +111,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>330.02935791</x>
-                        <y>224.373382568</y>
+                        <x>562</x>
+                        <y>186</y>
                         <z>0</z>
-                        <width>181.236038208</width>
-                        <height>160.231674194</height>
+                        <width>151.373275757</width>
+                        <height>166.727554321</height>
                         <depth>0</depth>
-                        <hotspotX>0.482954532</hotspotX>
-                        <hotspotY>0.493243247</hotspotY>
+                        <hotspotX>2.285714388</hotspotX>
+                        <hotspotY>0.129870132</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
