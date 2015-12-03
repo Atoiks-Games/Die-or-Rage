@@ -377,6 +377,11 @@
         </object-type>
         <object-type name="Sprite" sid="2248141659386566">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="AnvilPlaf" sid="7570821228741447">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3175330609698651" speed="5">
                     <frame duration="1" hotspotX="1.56545" hotspotY="2.46711" original-source="C:\Users\gui\Downloads\Anvil.png" />
