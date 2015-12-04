@@ -13,6 +13,10 @@
                 <action behavior="Platform" id="7" name="Simulate control" sid="5242439402003003" type="sprRyan">
                     <param id="0" name="Control">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="5844891031991749" type="sprRyan">
+                    <param id="0" name="Animation">&quot;RunningR&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="4535825805768926">
@@ -37,6 +41,10 @@
                 <action behavior="Platform" id="7" name="Simulate control" sid="1395790360626326" type="sprRyan">
                     <param id="0" name="Control">0</param>
                 </action>
+                <action id="4" name="Set animation" sid="2058586056055937" type="sprRyan">
+                    <param id="0" name="Animation">&quot;RunningL&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="802435955683798">
@@ -48,17 +56,6 @@
             <actions>
                 <action id="-43" name="Go to next/previous layout" sid="1509823531593478" type="System">
                     <param id="0" name="Which">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2635785092721484">
-            <conditions>
-                <condition behavior="Platform" id="8" name="On moved" sid="4754976305897444" type="sprRyan" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="6097380117440808" type="sprRyan">
-                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -133,6 +130,17 @@
             <actions>
                 <action id="-43" name="Go to next/previous layout" sid="6888012717794288" type="System">
                     <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1692181744607448">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="2571641415981567" type="sprRyan" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="1452185773840825" type="sprRyan">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

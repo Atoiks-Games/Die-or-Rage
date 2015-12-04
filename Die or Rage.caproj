@@ -205,13 +205,37 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="1" loop="0" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="7987982156669941" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                <animation framecount="4" loop="0" name="RunningR" pingpong="0" repeatcount="1" repeatto="0" sid="7987982156669941" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
                         <collision-poly>
                             <point x="0.300586" y="0.13151" />
                             <point x="0.362171" y="0.134115" />
                             <point x="0.392962" y="0.514323" />
                             <point x="0.274927" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run R Jeff 1.png">
+                        <collision-poly>
+                            <point x="0.30132" y="0.132812" />
+                            <point x="0.359238" y="0.140625" />
+                            <point x="0.401027" y="0.514323" />
+                            <point x="0.289589" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run R Jeff 2.png">
+                        <collision-poly>
+                            <point x="0.300586" y="0.135417" />
+                            <point x="0.366569" y="0.139323" />
+                            <point x="0.382698" y="0.514323" />
+                            <point x="0.285191" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run R Jeff 3.png">
+                        <collision-poly>
+                            <point x="0.304252" y="0.136719" />
+                            <point x="0.354839" y="0.136719" />
+                            <point x="0.38783" y="0.514323" />
+                            <point x="0.285924" y="0.514323" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -240,6 +264,40 @@
                             <point x="0.99527" y="0.301754" />
                             <point x="0.991762" y="0.77193" />
                             <point x="0" y="0.77193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="RunningL" pingpong="0" repeatcount="1" repeatto="0" sid="3828706177330953" speed="19">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                        <collision-poly>
+                            <point x="0.303519" y="0.135417" />
+                            <point x="0.369502" y="0.151042" />
+                            <point x="0.392962" y="0.514323" />
+                            <point x="0.282991" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run L Jeff 1.png">
+                        <collision-poly>
+                            <point x="0.333578" y="0.136719" />
+                            <point x="0.393695" y="0.135417" />
+                            <point x="0.398094" y="0.514323" />
+                            <point x="0.284457" y="0.514323" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run L Jeff 2.png">
+                        <collision-poly>
+                            <point x="0.321847" y="0.135417" />
+                            <point x="0.384898" y="0.134115" />
+                            <point x="0.391496" y="0.514323" />
+                            <point x="0.285924" y="0.513021" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run L Jeff 3.png">
+                        <collision-poly>
+                            <point x="0.312317" y="0.141927" />
+                            <point x="0.382698" y="0.128906" />
+                            <point x="0.385631" y="0.514323" />
+                            <point x="0.285924" y="0.514323" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -292,12 +350,11 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8087997873608529" speed="5">
-                    <frame duration="1" hotspotX="1.21193" hotspotY="0.980114" original-source="C:\Users\gui\Downloads\House.png">
+                    <frame duration="1" hotspotX="1.21271" hotspotY="0.979508" original-source="C:\Users\gui\Downloads\Dirt with house.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.855453" y="0.302912" />
-                            <point x="0.822017" y="0.790483" />
-                            <point x="0.987654" y="0.794034" />
+                            <point x="0" y="0.282787" />
+                            <point x="0.858215" y="0.278322" />
+                            <point x="1" y="0.285837" />
                             <point x="0.989712" y="0.997159" />
                             <point x="0" y="0.981481" />
                         </collision-poly>
@@ -351,10 +408,10 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6907907500548578" speed="5">
                     <frame duration="1" hotspotX="1.63636" hotspotY="-0.05" original-source="C:\Users\gui\Downloads\Orange Switch Base.png">
                         <collision-poly>
-                            <point x="0.613363" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0" y="0.275" />
+                            <point x="1" y="0.325" />
                             <point x="1" y="1" />
-                            <point x="0.706364" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -384,7 +441,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3175330609698651" speed="5">
-                    <frame duration="1" hotspotX="1.56545" hotspotY="2.46711" original-source="C:\Users\gui\Downloads\Anvil.png" />
+                    <frame duration="1" hotspotX="1.56545" hotspotY="2.46711" original-source="C:\Users\gui\Downloads\Anvil.png">
+                        <collision-poly>
+                            <point x="0.554974" y="0.947368" />
+                            <point x="0.539267" y="0.947369" />
+                            <point x="0.560209" y="0.993421" />
+                            <point x="0.549738" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
