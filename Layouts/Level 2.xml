@@ -2,7 +2,7 @@
 <c2layout>
     <name>Level 2</name>
     <sid>952734444021687</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>evtMain</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -150,7 +150,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="16">
+                <instance type="sprLoosePlatform" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

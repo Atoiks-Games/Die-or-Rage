@@ -365,7 +365,7 @@
         <object-type name="txtInstructions1" sid="1078987437207329">
             <plugin id="Text" />
         </object-type>
-        <object-type name="sprLavaPlatform" sid="1573846639824846">
+        <object-type name="sprLoosePlatform" sid="1573846639824846">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="554786183386613">
@@ -455,7 +455,7 @@
         <object-type name="sprSwitch" sid="9483322456254776">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6284658881788743" speed="5">
+                <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="6284658881788743" speed="5">
                     <frame duration="1" hotspotX="4.67391" hotspotY="0.890476" original-source="C:\Users\gui\Downloads\Orange Switch Head Off.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="7502502600928347" speed="5">
@@ -479,7 +479,7 @@
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>evtMain.xml</event-sheet>
         <event-sheet>evtStartPage.xml</event-sheet>
         <event-sheet>evtIntroVideo.xml</event-sheet>
         <event-sheet>evtIntroHell.xml</event-sheet>

@@ -2,7 +2,7 @@
 <c2layout>
     <name>Level 4</name>
     <sid>2173310930417907</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>evtMain</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -101,7 +101,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="10">
+                <instance type="sprLoosePlatform" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -130,7 +130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="21">
+                <instance type="sprLoosePlatform" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -159,7 +159,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="40">
+                <instance type="sprLoosePlatform" uid="40">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

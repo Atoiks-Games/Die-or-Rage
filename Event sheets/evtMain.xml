@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 1</name>
+    <name>evtMain</name>
     <events>
         <event-block sid="8311668621491138">
             <conditions>
@@ -87,13 +87,33 @@
                     <param id="0" name="Object">sprSwitch</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="3772200574210158" type="sprLavaPlatform" />
-                <action id="4" name="Set animation" sid="1320276085579588" type="sprSwitch">
-                    <param id="0" name="Animation">&quot;On&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="5452107640294146">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="2704597628420828" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="4418331771130355" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;Off&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="737242145794661">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="6380642247797456" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1320276085579588" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="9928122558057698">
             <conditions>
@@ -141,6 +161,34 @@
                 <action id="4" name="Set animation" sid="1452185773840825" type="sprRyan">
                     <param id="0" name="Animation">&quot;Idle&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4411303827712477">
+            <conditions>
+                <condition id="2" name="Is playing" sid="86990093113603" type="sprSwitch">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3772200574210158" type="sprLoosePlatform">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="sprLoosePlatform">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2155436040430613">
+            <conditions>
+                <condition id="-22" name="Else" sid="9351980388259779" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3844407362074521" type="sprLoosePlatform">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="sprLoosePlatform">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
