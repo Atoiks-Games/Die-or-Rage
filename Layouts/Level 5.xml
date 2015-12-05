@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>Level 5</name>
-    <sid>2173310930417907</sid>
+    <sid>186977955442369</sid>
     <event-sheet>Event sheet 1</event-sheet>
     <size>
         <width>1708</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="2900824470243676">
+        <layer name="Layer 0" sid="5934270206240117">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="sprRyan" uid="38">
+                <instance type="sprRyan" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Idle</initial-animation>
@@ -42,7 +42,7 @@
                                 <max-speed>330</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
-                                <jump-strength>600</jump-strength>
+                                <jump-strength>400</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
@@ -60,8 +60,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>158</x>
-                        <y>158</y>
+                        <x>221</x>
+                        <y>178</y>
                         <z>0</z>
                         <width>329.337158203</width>
                         <height>180.577972412</height>
@@ -72,7 +72,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprSimplePlatform" uid="1">
+                <instance type="sprSimplePlatform" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -89,11 +89,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1176</x>
-                        <y>978</y>
+                        <x>3942.561035156</x>
+                        <y>1600.251831055</y>
                         <z>0</z>
-                        <width>151</width>
-                        <height>153</height>
+                        <width>507</width>
+                        <height>276</height>
                         <depth>0</depth>
                         <hotspotX>7.754966736</hotspotX>
                         <hotspotY>5.16993475</hotspotY>
@@ -101,7 +101,45 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="10">
+                <instance type="sprAnvil" uid="8">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="AnvilPlaf">
+                            <properties>
+                                <max-speed>330</max-speed>
+                                <acceleration>1500</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>484</x>
+                        <y>116</y>
+                        <z>0</z>
+                        <width>74</width>
+                        <height>48</height>
+                        <depth>0</depth>
+                        <hotspotX>1.565445065</hotspotX>
+                        <hotspotY>2.46710515</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprLavaPlatform" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -118,19 +156,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>389</x>
-                        <y>436</y>
+                        <x>395</x>
+                        <y>56</y>
                         <z>0</z>
-                        <width>299</width>
+                        <width>165</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>3.103328466</angle>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="21">
+                <instance type="sprLavaPlatform" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -147,19 +185,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>362.63571167</x>
-                        <y>160.158935547</y>
+                        <x>349</x>
+                        <y>-30</y>
                         <z>0</z>
-                        <width>311</width>
+                        <width>165</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>1.479921222</angle>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLavaPlatform" uid="40">
+                <instance type="sprSwitchBase" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -176,19 +214,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>532.459838867</x>
-                        <y>431.82824707</y>
+                        <x>497.454589844</x>
+                        <y>186.049987793</y>
                         <z>0</z>
-                        <width>672</width>
-                        <height>7</height>
+                        <width>76</width>
+                        <height>10</height>
                         <depth>0</depth>
-                        <hotspotX>0.478260875</hotspotX>
-                        <hotspotY>0.285714298</hotspotY>
-                        <angle>1.655608416</angle>
+                        <hotspotX>1.636363626</hotspotX>
+                        <hotspotY>-0.050000001</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLava" uid="39">
+                <instance type="sprSwitch" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -198,14 +236,41 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1036</x>
-                        <y>227</y>
+                        <x>438</x>
+                        <y>188</y>
                         <z>0</z>
-                        <width>151.373275757</width>
-                        <height>166.727554321</height>
+                        <width>5</width>
+                        <height>35</height>
                         <depth>0</depth>
-                        <hotspotX>2.285714388</hotspotX>
-                        <hotspotY>0.129870132</hotspotY>
+                        <hotspotX>4.673913002</hotspotX>
+                        <hotspotY>0.890476167</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text3" uid="37">
+                    <properties>
+                        <text>If an anvil lands on you, it will kill you</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>15</x>
+                        <y>45</y>
+                        <z>0</z>
+                        <width>268</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
