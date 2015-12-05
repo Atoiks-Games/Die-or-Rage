@@ -89,7 +89,7 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="3772200574210158" type="sprLavaPlatform" />
-                <action id="4" name="Set animation" sid="1320276085579588" type="Sprite2">
+                <action id="4" name="Set animation" sid="1320276085579588" type="sprSwitch">
                     <param id="0" name="Animation">&quot;On&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -123,7 +123,7 @@
         </event-block>
         <event-block sid="4002111435820284">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="7085926509946932" type="Sprite">
+                <condition id="0" name="On collision with another object" sid="7085926509946932" type="sprAnvil">
                     <param id="0" name="Object">sprRyan</param>
                 </condition>
             </conditions>

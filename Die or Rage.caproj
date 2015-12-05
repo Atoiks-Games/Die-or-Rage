@@ -397,7 +397,7 @@
         <object-type name="Text" sid="3504069485159818">
             <plugin id="Text" />
         </object-type>
-        <object-type name="sprSwitch" sid="3499903209424186">
+        <object-type name="sprSwitchBase" sid="3499903209424186">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="1444689078889752">
@@ -432,7 +432,7 @@
         <object-type name="inGameMusic" sid="5503394552594519">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="Sprite" sid="2248141659386566">
+        <object-type name="sprAnvil" sid="2248141659386566">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="AnvilPlaf" sid="7570821228741447">
@@ -452,7 +452,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="9483322456254776">
+        <object-type name="sprSwitch" sid="9483322456254776">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6284658881788743" speed="5">
