@@ -177,6 +177,9 @@
                 <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="sprLoosePlatform">
                     <param id="0" name="State">0</param>
                 </action>
+                <action behavior="AnvilPlaf" id="11" name="Set enabled" sid="2558712117458376" type="sprAnvil">
+                    <param id="0" name="State">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2155436040430613">

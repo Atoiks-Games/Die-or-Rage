@@ -120,21 +120,21 @@
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
                                 <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>484</x>
-                        <y>116</y>
+                        <x>461</x>
+                        <y>117</y>
                         <z>0</z>
                         <width>74</width>
-                        <height>48</height>
+                        <height>47.684211731</height>
                         <depth>0</depth>
                         <hotspotX>1.565445065</hotspotX>
-                        <hotspotY>2.46710515</hotspotY>
+                        <hotspotY>2.483443737</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -185,7 +185,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>349</x>
+                        <x>322</x>
                         <y>-30</y>
                         <z>0</z>
                         <width>165</width>
