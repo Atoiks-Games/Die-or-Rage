@@ -465,6 +465,9 @@
         <object-type name="Text3" sid="5328986719339563">
             <plugin id="Text" />
         </object-type>
+        <object-type name="btnRestart" sid="9132191535282894">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
