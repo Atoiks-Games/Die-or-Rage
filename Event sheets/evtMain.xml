@@ -195,5 +195,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1474728915039426">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="848825429922661" type="sprAnvil">
+                    <param id="0" name="Object">sprSimplePlatform</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="9285266248491401" type="sprAnvil">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
