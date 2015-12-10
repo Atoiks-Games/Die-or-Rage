@@ -20,7 +20,6 @@
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
-        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -53,9 +52,6 @@
             <behaviors>
                 <behavior-type name="Platform" sid="9395584529892024">
                     <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="Wrap" sid="7861666586957394">
-                    <behavior id="wrap" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
