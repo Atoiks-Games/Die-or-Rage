@@ -226,6 +226,22 @@
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="7267911097256087">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8088427437106519" type="System">
+                            <param id="0" name="Variable">sprRyanAnimation</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Jumping&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4985289455843202" type="sprRyan">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
