@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtMain</name>
     <events>
+        <variable comment="Name of current animation" constant="0" name="sprRyanAnimation" sid="5487619636812518" static="0" type="text">Idle</variable>
         <event-block sid="8311668621491138">
             <conditions>
                 <condition id="0" name="On key pressed" sid="8516428415850108" type="Keyboard">
@@ -13,9 +14,9 @@
                 <action behavior="Platform" id="7" name="Simulate control" sid="5242439402003003" type="sprRyan">
                     <param id="0" name="Control">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="5844891031991749" type="sprRyan">
-                    <param id="0" name="Animation">&quot;RunningR&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="5844891031991749" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;RunningR&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -41,9 +42,9 @@
                 <action behavior="Platform" id="7" name="Simulate control" sid="1395790360626326" type="sprRyan">
                     <param id="0" name="Control">0</param>
                 </action>
-                <action id="4" name="Set animation" sid="2058586056055937" type="sprRyan">
-                    <param id="0" name="Animation">&quot;RunningL&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="2058586056055937" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;RunningL&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -64,9 +65,9 @@
                 <condition behavior="Platform" id="7" name="On stopped" sid="1450955399259224" type="sprRyan" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="8863412097091412" type="sprRyan">
-                    <param id="0" name="Animation">&quot;Idle&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="8863412097091412" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value"> &quot;Idle&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -75,9 +76,9 @@
                 <condition behavior="Platform" id="5" name="On jump" sid="5332603746066181" type="sprRyan" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="912923273028482" type="sprRyan">
-                    <param id="0" name="Animation">&quot;Jumping&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="912923273028482" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Jumping&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -135,9 +136,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="8100909978213325" type="sprRyan">
-                    <param id="0" name="Animation">&quot;Crouch&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="8100909978213325" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Crouch&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -158,9 +159,9 @@
                 <condition behavior="Platform" id="9" name="On landed" sid="2571641415981567" type="sprRyan" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="1452185773840825" type="sprRyan">
-                    <param id="0" name="Animation">&quot;Idle&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="1452185773840825" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -213,6 +214,55 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="6005815345135432" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="201369634737527">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6243709301640373" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4630588520396687" type="sprRyan">
+                    <param id="0" name="Animation">sprRyanAnimation</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7267911097256087">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8088427437106519" type="System">
+                            <param id="0" name="Variable">sprRyanAnimation</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Jumping&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4985289455843202" type="sprRyan">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>If this is triggered, we change his look to idle and re-play after 5 seconds</comment>
+        <event-block sid="9799405533701177">
+            <conditions>
+                <condition id="4" name="On finished" sid="6711244777239131" type="sprVoidswalker">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="7080339984013017" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="5" name="Set frame" sid="4661960312757858" type="sprVoidswalker">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="3375250861910344" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="3" name="Start" sid="5675631987541135" type="sprVoidswalker">
+                    <param id="0" name="From">1</param>
+                </action>
             </actions>
         </event-block>
     </events>

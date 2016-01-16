@@ -465,6 +465,7 @@
         <object-type name="btnRestart" sid="9132191535282894">
             <plugin id="Button" />
         </object-type>
+<<<<<<< HEAD
         <object-type name="Sprite" sid="7021103342740831">
             <plugin id="Sprite" />
             <behaviors>
@@ -475,6 +476,33 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8039156659250586" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.503185" original-source="C:\Users\gui\Downloads\One Way Block.png" />
+=======
+        <object-type name="Sprite" sid="3276473024015572">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7817109374390483" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprVoidswalker" sid="9396073746059205">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7128082345344892" speed="5">
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Base.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501845" original-source="C:\Users\plank\Downloads\Voidswalker Charge 1.png" />
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Charge 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Charge 3.png" />
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.50193" original-source="C:\Users\plank\Downloads\Voidswalker Charge 4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprVoidswalkerBlast" sid="3558875145533148">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9023900895627479" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502732" original-source="C:\Users\plank\Downloads\Voidswalker Blast.png" />
+>>>>>>> origin/master
                 </animation>
             </animation-folder>
         </object-type>
@@ -488,7 +516,11 @@
         <layout>Level 3.xml</layout>
         <layout>Level 4.xml</layout>
         <layout>Level 5.xml</layout>
+<<<<<<< HEAD
         <layout>Level 6.xml</layout>
+=======
+        <layout>Level VoidsWalker.xml</layout>
+>>>>>>> origin/master
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
