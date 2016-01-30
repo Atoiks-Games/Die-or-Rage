@@ -519,8 +519,8 @@
         <event-sheet>evtIntroHell.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="3" />
-        <global-instance type="inGameMusic" uid="35">
+        <global-instance type="Keyboard" uid="35" />
+        <global-instance type="inGameMusic" uid="52">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
