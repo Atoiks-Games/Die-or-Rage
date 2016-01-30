@@ -254,6 +254,12 @@
                 <action id="-16" name="Wait" sid="7080339984013017" type="System">
                     <param id="0" name="Seconds">0.5</param>
                 </action>
+                <action id="-15" name="Set visible" sid="1742876826650142" type="sprVoidswalkerBlast">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="8844376899359942" type="sprVoidswalkerBlast">
+                    <param id="0" name="State">1</param>
+                </action>
                 <action id="5" name="Set frame" sid="4661960312757858" type="sprVoidswalker">
                     <param id="0" name="Frame number">0</param>
                 </action>
