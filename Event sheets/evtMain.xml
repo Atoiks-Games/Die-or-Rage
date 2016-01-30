@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtMain</name>
     <events>
+        <variable comment="Signal" constant="1" name="SIG_TELEPORT_RYAN" sid="3750120932456258" static="0" type="text">teleportRyan</variable>
         <variable comment="Name of current animation" constant="0" name="sprRyanAnimation" sid="5487619636812518" static="0" type="text">Idle</variable>
         <event-block sid="8311668621491138">
             <conditions>
@@ -214,6 +215,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="6005815345135432" type="System" />
+                <action id="-9" name="Set value" sid="9605664515715133" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="201369634737527">
@@ -277,16 +282,52 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="2033000433528256">
+        <event-block sid="9515447226625117">
             <conditions>
-                <condition id="-29" name="On load complete" sid="1376378760796627" type="System" />
+                <condition id="0" name="On collision with another object" sid="9387739838313069" type="sprVoidswalkerBlast">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="2573241035203101" type="System">
-                    <param id="0" name="Variable">sprRyanAnimation</param>
-                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                <action id="-9" name="Destroy" sid="3379780686414436" type="sprVoidswalkerBlast" />
+                <action id="-42" name="Signal" sid="8836338456779246" type="System">
+                    <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
                 </action>
             </actions>
+        </event-block>
+        <comment>Is SIG_TELEPORT_RYAN is received, it teleports Ryan with in the viewport. If he overlaps platform, respawn!</comment>
+        <event-block sid="7628808795806577">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="638240671750874" type="System" />
+            </conditions>
+            <actions>
+                <action id="-41" name="Wait for signal" sid="3016473110242623" type="System">
+                    <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
+                </action>
+                <action id="-1" name="Set X" sid="2893642730346715" type="sprRyan">
+                    <param id="0" name="X">random(WindowWidth)</param>
+                </action>
+                <action id="-2" name="Set Y" sid="4657241228601519" type="sprRyan">
+                    <param id="0" name="Y">random(WindowHeight)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="7289037850856443">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="3063907485355407" type="sprRyan">
+                            <param id="0" name="Object">sprSimplePlatform</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="6897280651479913" type="sprRyan">
+                            <param id="0" name="Object">sprSwitchBase</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-42" name="Signal" sid="2060291526204539" type="System">
+                            <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
