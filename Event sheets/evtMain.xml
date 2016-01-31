@@ -313,7 +313,7 @@
                     <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
                 </action>
                 <action id="-1" name="Set X" sid="2893642730346715" type="sprRyan">
-                    <param id="0" name="X">random(WindowWidth - 20) + 10</param>
+                    <param id="0" name="X">random(WindowWidth)</param>
                 </action>
                 <action id="-2" name="Set Y" sid="4657241228601519" type="sprRyan">
                     <param id="0" name="Y">random(WindowHeight)</param>
@@ -322,6 +322,7 @@
             <sub-events>
                 <event-block any="1" sid="7289037850856443">
                     <conditions>
+                        <condition id="-3" inverted="1" name="Is on-screen" sid="4847426429815686" type="sprRyan" />
                         <condition id="1" name="Is overlapping another object" sid="3063907485355407" type="sprRyan">
                             <param id="0" name="Object">sprSimplePlatform</param>
                         </condition>
@@ -346,6 +347,14 @@
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Idle&quot;</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="1953803194412509">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="5759094066276553" type="sprVoidswalkerBlast" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8391607693208455" type="sprVoidswalkerBlast" />
             </actions>
         </event-block>
     </events>
