@@ -108,8 +108,8 @@
                         <width>151</width>
                         <height>153</height>
                         <depth>0</depth>
-                        <hotspotX>7.754966736</hotspotX>
-                        <hotspotY>5.16993475</hotspotY>
+                        <hotspotX>7.756756783</hotspotX>
+                        <hotspotY>5.1712327</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -203,6 +203,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="sprLava" uid="83">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>974.718261719</x>
+                        <y>376.886199951</y>
+                        <z>0</z>
+                        <width>97</width>
+                        <height>113</height>
+                        <depth>0</depth>
+                        <hotspotX>2.285714388</hotspotX>
+                        <hotspotY>0.129870132</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
