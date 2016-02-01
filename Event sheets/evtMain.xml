@@ -316,7 +316,7 @@
                     <param id="0" name="X">random(WindowWidth)</param>
                 </action>
                 <action id="-2" name="Set Y" sid="4657241228601519" type="sprRyan">
-                    <param id="0" name="Y">random(WindowHeight)</param>
+                    <param id="0" name="Y">random(WindowHeight) + (WindowHeight / 4)</param>
                 </action>
             </actions>
             <sub-events>

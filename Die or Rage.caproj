@@ -523,7 +523,7 @@
         <layout>Level 4.xml</layout>
         <layout>Level 5.xml</layout>
         <layout>Level 6.xml</layout>
-        <layout>Level VoidsWalker.xml</layout>
+        <layout>Level 7.xml</layout>
         <layout>Level 8.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
