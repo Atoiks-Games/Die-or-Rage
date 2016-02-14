@@ -3,6 +3,8 @@ logs
 *.log
 *.uistate.xml
 
+*.swp
+
 # Runtime data
 pids
 *.pid

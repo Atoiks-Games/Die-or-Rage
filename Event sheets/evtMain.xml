@@ -458,5 +458,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="6081627553566961">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3007646660421354" type="TeleportBlock">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="7318448339577913" type="System" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
