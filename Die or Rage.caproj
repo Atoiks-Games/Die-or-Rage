@@ -20,6 +20,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -512,6 +513,29 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="MovingPlatform" sid="9914406066011315">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1153092573988281">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="CustomMovement" sid="4359375813244705">
+                    <behavior id="custom" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1298538909616206" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515625" original-source="C:\Users\ajbim\Downloads\Moving Platform.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0.996926" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -525,6 +549,7 @@
         <layout>Level 6.xml</layout>
         <layout>Level 7.xml</layout>
         <layout>Level 8.xml</layout>
+        <layout>Level 9.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
