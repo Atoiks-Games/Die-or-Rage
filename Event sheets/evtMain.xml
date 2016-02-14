@@ -406,5 +406,41 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="3373559553110515">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1211588648069943" type="SlimeBlock">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="4162982069970255" type="sprRyan">
+                    <param id="0" name="Deceleration">100000</param>
+                </action>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="8171328321741913" type="sprRyan">
+                    <param id="0" name="Acceleration">1</param>
+                </action>
+                <action behavior="Platform" id="4" name="Set jump strength" sid="5488026760978554" type="sprRyan">
+                    <param id="0" name="Jump strength">1200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="608358387074122">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="7940731205636205" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="5563119051977813" type="sprRyan">
+                    <param id="0" name="Acceleration">1500</param>
+                </action>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="4371983223792257" type="sprRyan">
+                    <param id="0" name="Deceleration">1500</param>
+                </action>
+                <action behavior="Platform" id="4" name="Set jump strength" sid="8604213211352632" type="sprRyan">
+                    <param id="0" name="Jump strength">600</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
