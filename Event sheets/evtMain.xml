@@ -313,16 +313,16 @@
                     <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
                 </action>
                 <action id="-1" name="Set X" sid="2893642730346715" type="sprRyan">
-                    <param id="0" name="X">random(WindowWidth)</param>
+                    <param id="0" name="X">random(800+33)</param>
                 </action>
                 <action id="-2" name="Set Y" sid="4657241228601519" type="sprRyan">
-                    <param id="0" name="Y">random(WindowHeight) + (WindowHeight / 4)</param>
+                    <param id="0" name="Y">random(400)</param>
                 </action>
             </actions>
             <sub-events>
                 <event-block any="1" sid="7289037850856443">
                     <conditions>
-                        <condition id="-3" inverted="1" name="Is on-screen" sid="4847426429815686" type="sprRyan" />
+                        <condition id="-4" inverted="1" name="Is outside layout" sid="4847426429815686" type="sprRyan" />
                         <condition id="1" name="Is overlapping another object" sid="3063907485355407" type="sprRyan">
                             <param id="0" name="Object">sprSimplePlatform</param>
                         </condition>
@@ -355,6 +355,127 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="8391607693208455" type="sprVoidswalkerBlast" />
+            </actions>
+        </event-block>
+        <event-block sid="6249539226630586">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="2286121784813047" type="MovingPlatform">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">205</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1413168053679714" type="MovingPlatform">
+                    <param id="0" name="Acceleration">1600</param>
+                    <param id="1" name="X">600</param>
+                    <param id="2" name="Y">380</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7092510784563126">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="8247554872954955" type="MovingPlatform">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">600</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="9" name="Stop stepping" sid="6352518518122151" type="MovingPlatform">
+                    <param id="0" name="Position">1</param>
+                </action>
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1531976088288838" type="MovingPlatform">
+                    <param id="0" name="Acceleration">1600</param>
+                    <param id="1" name="X">600</param>
+                    <param id="2" name="Y">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9931050697868757">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="8914171057752717" type="MovingPlatform">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="CustomMovement" id="0" name="Stop" sid="1566620904475506" type="MovingPlatform" />
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="9144384078587384" type="MovingPlatform">
+                    <param id="0" name="Acceleration">1600</param>
+                    <param id="1" name="X">600</param>
+                    <param id="2" name="Y">380</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3373559553110515">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1211588648069943" type="SlimeBlock">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="4162982069970255" type="sprRyan">
+                    <param id="0" name="Deceleration">100000</param>
+                </action>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="8171328321741913" type="sprRyan">
+                    <param id="0" name="Acceleration">1</param>
+                </action>
+                <action behavior="Platform" id="4" name="Set jump strength" sid="5488026760978554" type="sprRyan">
+                    <param id="0" name="Jump strength">1200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="608358387074122">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="7940731205636205" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="2" name="Set acceleration" sid="5563119051977813" type="sprRyan">
+                    <param id="0" name="Acceleration">1500</param>
+                </action>
+                <action behavior="Platform" id="3" name="Set deceleration" sid="4371983223792257" type="sprRyan">
+                    <param id="0" name="Deceleration">1500</param>
+                </action>
+                <action behavior="Platform" id="4" name="Set jump strength" sid="8604213211352632" type="sprRyan">
+                    <param id="0" name="Jump strength">600</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5692134410020193">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5355330710285856" type="System" />
+                <condition id="-4" name="Is outside layout" sid="5098274881299575" type="sprRyan" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="5471375926589111" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="7263949974592954" type="System" />
+                <action id="-9" name="Set value" sid="16990190987344" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6081627553566961">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3007646660421354" type="TeleportBlock">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="7318448339577913" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="950513140286372">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5727153927890082" type="Keyboard">
+                    <param id="0" name="Key">82 (R)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="3288472049715256" type="System" />
             </actions>
         </event-block>
     </events>
