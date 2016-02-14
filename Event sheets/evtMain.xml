@@ -468,5 +468,15 @@
                 <action id="-26" name="Restart layout" sid="7318448339577913" type="System" />
             </actions>
         </event-block>
+        <event-block sid="950513140286372">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5727153927890082" type="Keyboard">
+                    <param id="0" name="Key">82 (R)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="3288472049715256" type="System" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
