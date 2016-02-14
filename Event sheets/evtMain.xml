@@ -466,6 +466,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="7318448339577913" type="System" />
+                <action id="-9" name="Set value" sid="3270977984710358" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="950513140286372">
@@ -476,6 +480,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="3288472049715256" type="System" />
+                <action id="-9" name="Set value" sid="2471603769115341" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>
