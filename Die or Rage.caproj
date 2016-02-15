@@ -581,7 +581,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2688685525404078" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\plank\Pictures\Saved Pictures\simply a car (2).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\plank\Pictures\Saved Pictures\simply a car (2).png">
+                        <collision-poly>
+                            <point x="0.0783132" y="0.0366972" />
+                            <point x="0.981928" y="0.0366972" />
+                            <point x="0.981928" y="0.972477" />
+                            <point x="0.0060241" y="0.963303" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
