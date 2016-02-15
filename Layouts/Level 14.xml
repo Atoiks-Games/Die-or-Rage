@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Level 2</name>
-    <sid>952734444021687</sid>
+    <name>Level 14</name>
+    <sid>1879575127557186</sid>
     <event-sheet>evtMain</event-sheet>
     <size>
         <width>1708</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="6221803526417708">
+        <layer name="Layer 0" sid="7259577518846927">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="sprBackground" uid="55">
+                <instance type="sprBackground" uid="142">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>428</x>
-                        <y>243</y>
+                        <x>429</x>
+                        <y>244</y>
                         <z>0</z>
                         <width>859</width>
                         <height>482</height>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprRyan" uid="4">
+                <instance type="sprRyan" uid="143">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Idle</initial-animation>
@@ -64,7 +64,7 @@
                                 <max-speed>330</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
-                                <jump-strength>400</jump-strength>
+                                <jump-strength>600</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
@@ -77,8 +77,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>245</x>
-                        <y>119</y>
+                        <x>232.79385376</x>
+                        <y>116.457107544</y>
                         <z>0</z>
                         <width>329.337158203</width>
                         <height>180.577972412</height>
@@ -89,36 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprRyansHouse" uid="11">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>298</x>
-                        <y>366</y>
-                        <z>0</z>
-                        <width>232</width>
-                        <height>337</height>
-                        <depth>0</depth>
-                        <hotspotX>1.212707162</hotspotX>
-                        <hotspotY>0.979508221</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprLava" uid="15">
+                <instance type="sprLava" uid="144">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -128,8 +99,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>598</x>
-                        <y>223</y>
+                        <x>562</x>
+                        <y>186</y>
                         <z>0</z>
                         <width>151.373275757</width>
                         <height>166.727554321</height>
@@ -140,9 +111,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtInstructions2" uid="17">
+                <instance type="txtInstructions1" uid="145">
                     <properties>
-                        <text>Do this until you get sent to the Underworld. But be careful, He will attempt to stop you. He doesn&apos;t want you to bring your wife back.</text>
+                        <text>Haven&apos;t you been here before?</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -155,11 +126,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>292</x>
-                        <y>22</y>
+                        <x>211.729797363</x>
+                        <y>11.471542358</y>
                         <z>0</z>
-                        <width>320</width>
-                        <height>64</height>
+                        <width>296.694824219</width>
+                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -167,7 +138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="16">
+                <instance type="sprRyansHouse" uid="146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -184,19 +155,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>318</x>
-                        <y>146</y>
+                        <x>263.940124512</x>
+                        <y>334.012756348</y>
                         <z>0</z>
-                        <width>165</width>
-                        <height>7</height>
+                        <width>218</width>
+                        <height>298</height>
                         <depth>0</depth>
-                        <hotspotX>0.478260875</hotspotX>
-                        <hotspotY>0.285714298</hotspotY>
+                        <hotspotX>1.212707162</hotspotX>
+                        <hotspotY>0.979508221</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnRestart" uid="44">
+                <instance type="btnRestart" uid="147">
                     <properties>
                         <type>Button</type>
                         <text>Restart</text>
@@ -210,8 +181,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>746</x>
-                        <y>49</y>
+                        <x>748</x>
+                        <y>37</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>

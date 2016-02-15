@@ -6,6 +6,14 @@
         <comment>Goto hell level then... Obviously</comment>
         <event-block sid="7157724172314641">
             <conditions>
+                <condition id="4" name="Is any playing" sid="1887952656182139" type="inGameMusic" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="5985886328797097" type="inGameMusic" />
+            </actions>
+        </event-block>
+        <event-block sid="6433258752981202">
+            <conditions>
                 <condition id="0" name="On clicked" sid="535798828027316" type="btnSkip" />
             </conditions>
             <actions />
