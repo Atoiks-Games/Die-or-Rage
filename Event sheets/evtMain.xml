@@ -547,5 +547,11 @@
                 <action id="-9" name="Destroy" sid="701769166738955" type="Bullet" />
             </actions>
         </event-block>
+        <event-block sid="1963173081789561">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8004995739431332" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>

@@ -19,6 +19,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
@@ -702,6 +703,25 @@
         <object-type name="Text11" sid="5698340078039382">
             <plugin id="Text" />
         </object-type>
+        <object-type name="HealBot" sid="5746546406169579">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="6836075600087894">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="6928367720803455">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4700811090929484" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text12" sid="1414191288176734">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -723,6 +743,7 @@
         <layout>Level 14.xml</layout>
         <layout>Level 15.xml</layout>
         <layout>Level 16.xml</layout>
+        <layout>Level 17.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
