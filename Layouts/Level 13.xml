@@ -77,8 +77,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>102</x>
-                        <y>466</y>
+                        <x>173</x>
+                        <y>463</y>
                         <z>0</z>
                         <width>329.337158203</width>
                         <height>180.577972412</height>
@@ -320,8 +320,8 @@
                         <behavior-instance type="Pin" />
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>180</speed>
-                                <acceleration>-1</acceleration>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
