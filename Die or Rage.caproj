@@ -715,7 +715,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4700811090929484" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png">
+                        <collision-poly>
+                            <point x="0.0107527" y="0.210884" />
+                            <point x="0.198925" y="0.207483" />
+                            <point x="0.344086" y="0.00680272" />
+                            <point x="0.66129" y="0.00680272" />
+                            <point x="0.844086" y="0.217687" />
+                            <point x="0.983871" y="0.214286" />
+                            <point x="0.5" y="0.993197" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
