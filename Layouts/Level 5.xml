@@ -267,7 +267,7 @@
                 </instance>
                 <instance type="Text3" uid="37">
                     <properties>
-                        <text>If an anvil lands on you, it will kill you</text>
+                        <text>Anvils are affected by gravity and are stopped only by orange platforms. They will kill you.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -280,11 +280,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>15</x>
-                        <y>45</y>
+                        <x>7</x>
+                        <y>23</y>
                         <z>0</z>
                         <width>268</width>
-                        <height>30</height>
+                        <height>73</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
