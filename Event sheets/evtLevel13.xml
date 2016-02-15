@@ -16,7 +16,7 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="4305012618451495" type="sprGreenCar">
-                            <param id="0" name="X">sprGreenCar.X - 10</param>
+                            <param id="0" name="X">sprGreenCar.X - 7</param>
                         </action>
                     </actions>
                 </event-block>

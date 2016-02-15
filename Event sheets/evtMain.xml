@@ -486,5 +486,51 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1891587480157584">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="822750524971145" type="GunFloating">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="6335293837770584" type="GunFloating">
+                    <param id="0" name="Pin to">sprRyan</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="677860883401042">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6458164469209625" type="Keyboard">
+                    <param id="0" name="Key">90 (Z)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="8302729251624467" type="GunFloating">
+                    <param id="0" name="Object">Bullet</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7525072567183765">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="7717985554225347" type="Bullet" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5511320202081546" type="Bullet" />
+            </actions>
+        </event-block>
+        <event-block sid="2291881425724125">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4582098812272012" type="Bullet">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9484828908431841" type="SlimeBlock" />
+                <action id="-9" name="Destroy" sid="701769166738955" type="Bullet" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
