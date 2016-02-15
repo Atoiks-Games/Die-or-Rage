@@ -49,7 +49,7 @@
                     <param id="0" name="Audio file">boss1Music</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">100</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;boss1Music&quot;</param>
                 </action>
             </actions>
         </event-block>

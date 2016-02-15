@@ -33,5 +33,21 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="8638370359721574">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="7656307846099473" type="inGameMusic">
+                    <param id="0" name="Tag">&quot;boss1Music&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="3828374309286038" type="inGameMusic" />
+                <action id="0" name="Play" sid="1922911292550456" type="inGameMusic">
+                    <param id="0" name="Audio file">inGameSound</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">50</param>
+                    <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
