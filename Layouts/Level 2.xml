@@ -142,7 +142,7 @@
                 </instance>
                 <instance type="txtInstructions2" uid="17">
                     <properties>
-                        <text>Find a way to kill yourself</text>
+                        <text>Do this until you get sent to the Underworld. But be careful, He will attempt to stop you. He doesn&apos;t want you to bring your wife back.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -158,8 +158,8 @@
                         <x>292</x>
                         <y>22</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>320</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

@@ -200,7 +200,7 @@
                 </instance>
                 <instance type="Text2" uid="30">
                     <properties>
-                        <text>Switches destoy orange platforms</text>
+                        <text>Switches control orange platforms. They turn them on and off.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -213,10 +213,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>527</x>
+                        <x>352</x>
                         <y>39</y>
                         <z>0</z>
-                        <width>267</width>
+                        <width>442</width>
                         <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

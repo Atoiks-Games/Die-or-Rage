@@ -678,6 +678,30 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text4" sid="8275061726959531">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text5" sid="3782481250478459">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text6" sid="2613059645361874">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text7" sid="2147733555181386">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text8" sid="2478460135446398">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text9" sid="1746573605548226">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text10" sid="7197115494373391">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text11" sid="5698340078039382">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

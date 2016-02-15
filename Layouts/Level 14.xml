@@ -113,7 +113,7 @@
                 </instance>
                 <instance type="txtInstructions1" uid="145">
                     <properties>
-                        <text>press =&gt; to kill yourself and join your wife</text>
+                        <text>Haven&apos;t you been here before?</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
