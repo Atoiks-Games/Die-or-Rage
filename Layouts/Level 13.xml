@@ -321,7 +321,7 @@
                         <behavior-instance type="Rotate">
                             <properties>
                                 <speed>180</speed>
-                                <acceleration>0</acceleration>
+                                <acceleration>-1</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
