@@ -617,6 +617,26 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="sprBoss1" sid="9046934058338507">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1557662977923051">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4867823816804857" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plank\Downloads\bill.JPG">
+                        <collision-poly>
+                            <point x="0.746711" y="0.73718" />
+                            <point x="0.217105" y="0.74359" />
+                            <point x="0.503289" y="0.13782" />
+                            <point x="0.789474" y="0.650641" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -645,6 +665,7 @@
         <event-sheet>evtIntroVideo.xml</event-sheet>
         <event-sheet>evtIntroHell.xml</event-sheet>
         <event-sheet>evtLevel13.xml</event-sheet>
+        <event-sheet>evtLevel15.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="35" />

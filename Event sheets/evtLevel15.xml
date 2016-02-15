@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtLevel15</name>
+    <events>
+        <include>evtMain</include>
+        <event-block sid="6035514410791365">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6947577904115294" type="System" />
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="5802831139707888" type="sprBoss1">
+                    <param id="0" name="Angle">sprBoss1.Angle + 10</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
