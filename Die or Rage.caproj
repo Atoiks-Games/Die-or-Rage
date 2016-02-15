@@ -591,6 +591,8 @@
         <layout>Level 10.xml</layout>
         <layout>Level 11.xml</layout>
         <layout>Level 12.xml</layout>
+        <layout>Level 13.xml</layout>
+        <layout>Level 14.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
@@ -598,7 +600,7 @@
         <event-sheet>evtStartPage.xml</event-sheet>
         <event-sheet>evtIntroVideo.xml</event-sheet>
         <event-sheet>evtIntroHell.xml</event-sheet>
-        <event-sheet>evtLevel12.xml</event-sheet>
+        <event-sheet>evtLevel13.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="35" />

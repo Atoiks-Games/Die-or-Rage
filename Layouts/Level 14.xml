@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Level 9</name>
-    <sid>9367030681595249</sid>
+    <name>Level 14</name>
+    <sid>1879575127557186</sid>
     <event-sheet>evtMain</event-sheet>
     <size>
         <width>1708</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="4712136285384205">
+        <layer name="Layer 0" sid="7259577518846927">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="sprBackground" uid="133">
+                <instance type="sprBackground" uid="142">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprRyan" uid="137">
+                <instance type="sprRyan" uid="143">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Idle</initial-animation>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLava" uid="138">
+                <instance type="sprLava" uid="144">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -111,7 +111,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtInstructions1" uid="139">
+                <instance type="txtInstructions1" uid="145">
                     <properties>
                         <text>press =&gt; to kill yourself and join your wife</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -138,7 +138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprRyansHouse" uid="140">
+                <instance type="sprRyansHouse" uid="146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -167,7 +167,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnRestart" uid="141">
+                <instance type="btnRestart" uid="147">
                     <properties>
                         <type>Button</type>
                         <text>Restart</text>
