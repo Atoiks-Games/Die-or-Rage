@@ -591,9 +591,6 @@
                 <behavior-type name="Pin" sid="1954319183090862">
                     <behavior id="Pin" />
                 </behavior-type>
-                <behavior-type name="Rotate" sid="555008788040066">
-                    <behavior id="Rotate" />
-                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970573482445255" speed="5">
