@@ -59,6 +59,9 @@
                 <action id="-43" name="Go to next/previous layout" sid="1509823531593478" type="System">
                     <param id="0" name="Which">0</param>
                 </action>
+                <action id="-22" name="Set layout angle" sid="4004952087485167" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="5836076606081811">
@@ -222,6 +225,9 @@
                 <action id="-9" name="Set value" sid="9605664515715133" type="System">
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="2281962421004175" type="System">
+                    <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
@@ -449,12 +455,15 @@
             </conditions>
             <actions>
                 <action id="-16" name="Wait" sid="5471375926589111" type="System">
-                    <param id="0" name="Seconds">2.0</param>
+                    <param id="0" name="Seconds">1.0</param>
                 </action>
                 <action id="-26" name="Restart layout" sid="7263949974592954" type="System" />
                 <action id="-9" name="Set value" sid="16990190987344" type="System">
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="5666947754484653" type="System">
+                    <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
@@ -470,6 +479,9 @@
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Idle&quot;</param>
                 </action>
+                <action id="-22" name="Set layout angle" sid="2728558351267054" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="950513140286372">
@@ -483,6 +495,9 @@
                 <action id="-9" name="Set value" sid="2471603769115341" type="System">
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="3564658145247156" type="System">
+                    <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
