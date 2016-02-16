@@ -591,5 +591,26 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="5620344579628237">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1984532471399554" type="Bloop">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5332309376163376" type="Bloop" />
+                <action id="-9" name="Destroy" sid="2514091325028089" type="SlimeBlock" />
+            </actions>
+        </event-block>
+        <event-block sid="7826272164692499">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5545648028501454" type="Bloop">
+                    <param id="0" name="Object">sprLoosePlatform</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6208600931690824" type="Bloop" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

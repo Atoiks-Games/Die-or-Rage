@@ -19,6 +19,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
@@ -262,12 +263,12 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
-                    <frame duration="1" hotspotX="0.387097" hotspotY="0.123457" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="1" y="1" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
+                            <point x="1" y="0.452055" />
+                            <point x="0" y="0.452055" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -743,6 +744,28 @@
         <object-type name="Text13" sid="4101816384798656">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text14" sid="6474847939125345">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text15" sid="6026732599157116">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Bloop" sid="6801551951144721">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Car" sid="3170619435917267">
+                    <behavior id="Car" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9356946933258358" speed="5">
+                    <frame duration="1" hotspotX="0.31875" hotspotY="0.969072" original-source="C:\Users\ajbim\Downloads\Bloop.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text16" sid="3172146415902948">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -766,6 +789,9 @@
         <layout>Level 16.xml</layout>
         <layout>Level 17.xml</layout>
         <layout>Level 18.xml</layout>
+        <layout>Level 19.xml</layout>
+        <layout>Level 20.xml</layout>
+        <layout>Level 21.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
