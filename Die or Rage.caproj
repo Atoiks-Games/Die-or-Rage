@@ -766,6 +766,9 @@
         <object-type name="Text16" sid="3172146415902948">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text17" sid="3326042850817923">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -792,6 +795,7 @@
         <layout>Level 19.xml</layout>
         <layout>Level 20.xml</layout>
         <layout>Level 21.xml</layout>
+        <layout>Level 22.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
