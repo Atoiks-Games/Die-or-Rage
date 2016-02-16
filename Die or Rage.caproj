@@ -740,6 +740,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text13" sid="4101816384798656">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
