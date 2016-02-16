@@ -549,9 +549,47 @@
         </event-block>
         <event-block sid="1963173081789561">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="8004995739431332" type="System" />
+                <condition id="0" name="On collision with another object" sid="7957272821060155" type="HealBot">
+                    <param id="0" name="Object">DestroyerWall</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="980207395687113" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="3843316939895357">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2066238984421592" type="HealBot">
+                    <param id="0" name="Object">sprSwitch</param>
+                </condition>
             </conditions>
             <actions />
+            <sub-events>
+                <event-block sid="6600410192933334">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="3816495196153891" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6609969096440226" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;Off&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4437406708731815">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2709684469253577" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6674379513064836" type="sprSwitch">
+                            <param id="0" name="Animation">&quot;On&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
