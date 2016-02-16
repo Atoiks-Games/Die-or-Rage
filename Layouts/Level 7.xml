@@ -106,14 +106,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>140</x>
-                        <y>358</y>
+                        <x>58</x>
+                        <y>293</y>
                         <z>0</z>
-                        <width>329.337158203</width>
-                        <height>180.577972412</height>
+                        <width>31.101387024</width>
+                        <height>68.478919983</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.387596905</hotspotX>
+                        <hotspotY>0.126712322</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -318,7 +318,7 @@
                 </instance>
                 <instance type="Text6" uid="107">
                     <properties>
-                        <text>Ctrl button makes you lie down.</text>
+                        <text>Ctrl button makes you crouch.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>

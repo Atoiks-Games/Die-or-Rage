@@ -64,244 +64,244 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="18" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="2178932187771344" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 2.png">
                         <collision-poly>
-                            <point x="0.293558" y="0.135065" />
-                            <point x="0.371157" y="0.136363" />
-                            <point x="0.393119" y="0.512987" />
-                            <point x="0.279649" y="0.512987" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
+                    <frame duration="1" hotspotX="0.384" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\base_jeff.png">
                         <collision-poly>
-                            <point x="0.286237" y="0.132468" />
-                            <point x="0.366764" y="0.132467" />
-                            <point x="0.394583" y="0.512987" />
-                            <point x="0.275256" y="0.512987" />
+                            <point x="0.016002" y="0" />
+                            <point x="0.864004" y="0" />
+                            <point x="1" y="0.996552" />
+                            <point x="0" y="0.996552" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 2.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
                         <collision-poly>
-                            <point x="0.281113" y="0.124675" />
-                            <point x="0.385066" y="0.124675" />
-                            <point x="0.409224" y="0.512987" />
-                            <point x="0.270864" y="0.512987" />
+                            <point x="0" y="0" />
+                            <point x="0.813951" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 3.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 3.png">
                         <collision-poly>
-                            <point x="0.289165" y="0.132468" />
-                            <point x="0.368229" y="0.133766" />
-                            <point x="0.389458" y="0.512987" />
-                            <point x="0.278184" y="0.512987" />
+                            <point x="0" y="0" />
+                            <point x="0.829464" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 4.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 4.png">
                         <collision-poly>
-                            <point x="0.289165" y="0.133766" />
-                            <point x="0.373353" y="0.135065" />
-                            <point x="0.403368" y="0.512987" />
-                            <point x="0.275989" y="0.512986" />
+                            <point x="0" y="0" />
+                            <point x="0.883723" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993148" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.125" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
                         <collision-poly>
-                            <point x="0.29795" y="0.124675" />
-                            <point x="0.373353" y="0.131169" />
-                            <point x="0.39019" y="0.512987" />
-                            <point x="0.278916" y="0.512987" />
+                            <point x="0.085269" y="0" />
+                            <point x="0.883723" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
                         <collision-poly>
-                            <point x="0.300146" y="0.131169" />
-                            <point x="0.367496" y="0.131169" />
-                            <point x="0.390922" y="0.512987" />
-                            <point x="0.277452" y="0.512987" />
+                            <point x="0.108523" y="0" />
+                            <point x="0.821702" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
                         <collision-poly>
-                            <point x="0.295022" y="0.128571" />
-                            <point x="0.36164" y="0.125974" />
-                            <point x="0.391655" y="0.512986" />
-                            <point x="0.279649" y="0.512987" />
+                            <point x="0.054264" y="0" />
+                            <point x="0.759692" y="0" />
+                            <point x="1" y="0.993148" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 8.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 8.png">
                         <collision-poly>
-                            <point x="0.295754" y="0.132468" />
-                            <point x="0.368229" y="0.132468" />
-                            <point x="0.396779" y="0.512987" />
-                            <point x="0.278184" y="0.512987" />
+                            <point x="0.062015" y="0" />
+                            <point x="0.829464" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 0.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 0.png">
                         <collision-poly>
-                            <point x="0.287701" y="0.133766" />
-                            <point x="0.37921" y="0.133766" />
-                            <point x="0.398243" y="0.512987" />
-                            <point x="0.275988" y="0.512987" />
+                            <point x="0" y="0" />
+                            <point x="0.945743" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
                         <collision-poly>
-                            <point x="0.284773" y="0.133766" />
-                            <point x="0.366033" y="0.136363" />
-                            <point x="0.396047" y="0.512987" />
-                            <point x="0.282577" y="0.512987" />
+                            <point x="0" y="0" />
+                            <point x="0.80621" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 2.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 2.png">
                         <collision-poly>
-                            <point x="0.301611" y="0.128571" />
-                            <point x="0.355051" y="0.127273" />
-                            <point x="0.399707" y="0.512987" />
-                            <point x="0.27306" y="0.512987" />
+                            <point x="0.124036" y="0" />
+                            <point x="0.68992" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 3.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 3.png">
                         <collision-poly>
-                            <point x="0.297218" y="0.138961" />
-                            <point x="0.362372" y="0.132468" />
-                            <point x="0.387262" y="0.512987" />
-                            <point x="0.281113" y="0.512987" />
+                            <point x="0.0775177" y="0.00684921" />
+                            <point x="0.767443" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 4.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 4.png">
                         <collision-poly>
-                            <point x="0.299414" y="0.133766" />
-                            <point x="0.368229" y="0.135065" />
-                            <point x="0.388726" y="0.512987" />
-                            <point x="0.279649" y="0.512987" />
+                            <point x="0.100772" y="0" />
+                            <point x="0.829464" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
                         <collision-poly>
-                            <point x="0.300878" y="0.128571" />
-                            <point x="0.35798" y="0.128571" />
-                            <point x="0.39019" y="0.512987" />
-                            <point x="0.281113" y="0.512987" />
+                            <point x="0.116274" y="0" />
+                            <point x="0.720936" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
                         <collision-poly>
-                            <point x="0.301611" y="0.12987" />
-                            <point x="0.366032" y="0.128571" />
-                            <point x="0.389458" y="0.512986" />
-                            <point x="0.281113" y="0.512987" />
+                            <point x="0.124036" y="0" />
+                            <point x="0.806199" y="0" />
+                            <point x="1" y="0.993148" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
                         <collision-poly>
-                            <point x="0.30161" y="0.131169" />
-                            <point x="0.36164" y="0.12987" />
-                            <point x="0.394583" y="0.512987" />
-                            <point x="0.27672" y="0.512987" />
+                            <point x="0.124025" y="0" />
+                            <point x="0.759692" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\base_jeff.png">
                         <collision-poly>
-                            <point x="0.297218" y="0.132468" />
-                            <point x="0.362372" y="0.133766" />
-                            <point x="0.385798" y="0.512987" />
-                            <point x="0.278917" y="0.512987" />
+                            <point x="0.0775177" y="0" />
+                            <point x="0.767443" y="0" />
+                            <point x="1" y="0.993151" />
+                            <point x="0" y="0.993151" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="4" loop="0" name="RunningR" pingpong="0" repeatcount="1" repeatto="0" sid="7987982156669941" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
                         <collision-poly>
-                            <point x="0.300586" y="0.13151" />
-                            <point x="0.362171" y="0.134115" />
-                            <point x="0.392962" y="0.514323" />
-                            <point x="0.274927" y="0.514323" />
+                            <point x="0.116274" y="0" />
+                            <point x="0.767452" y="0" />
+                            <point x="1" y="0.996576" />
+                            <point x="0" y="0.996576" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run R Jeff 1.png">
+                    <frame duration="1" hotspotX="0.388489" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\run R Jeff 1.png">
                         <collision-poly>
-                            <point x="0.30132" y="0.132812" />
-                            <point x="0.359238" y="0.140625" />
-                            <point x="0.401027" y="0.514323" />
-                            <point x="0.289589" y="0.514323" />
+                            <point x="0.107917" y="0" />
+                            <point x="0.676264" y="0.0136986" />
+                            <point x="1" y="0.996576" />
+                            <point x="0" y="0.996576" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run R Jeff 2.png">
+                    <frame duration="1" hotspotX="0.386139" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\run R Jeff 2.png">
                         <collision-poly>
-                            <point x="0.300586" y="0.135417" />
-                            <point x="0.366569" y="0.139323" />
-                            <point x="0.382698" y="0.514323" />
-                            <point x="0.285191" y="0.514323" />
+                            <point x="0.049498" y="8.88354e-007" />
+                            <point x="0.940595" y="0.0102742" />
+                            <point x="1" y="0.996576" />
+                            <point x="0" y="0.996576" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run R Jeff 3.png">
+                    <frame duration="1" hotspotX="0.388889" hotspotY="0.12585" original-source="C:\Users\gui\Downloads\run R Jeff 3.png">
                         <collision-poly>
-                            <point x="0.304252" y="0.136719" />
-                            <point x="0.354839" y="0.136719" />
-                            <point x="0.38783" y="0.514323" />
-                            <point x="0.285924" y="0.514323" />
+                            <point x="0.150791" y="0.00340204" />
+                            <point x="0.698416" y="0.00340204" />
+                            <point x="1" y="0.989796" />
+                            <point x="0" y="0.989796" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="2" loop="0" name="Jumping" pingpong="0" repeatcount="1" repeatto="0" sid="4971777287107919" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jump Jeff 1.png">
+                    <frame duration="1" hotspotX="0.389381" hotspotY="0.12628" original-source="C:\Users\gui\Downloads\Jump Jeff 1.png">
                         <collision-poly>
-                            <point x="0.30132" y="0.136719" />
-                            <point x="0.357038" y="0.135417" />
-                            <point x="0.38783" y="0.514323" />
-                            <point x="0.288856" y="0.514323" />
+                            <point x="0.0442518" y="0.00341365" />
+                            <point x="0.716813" y="8.85322e-007" />
+                            <point x="1" y="0.993174" />
+                            <point x="0" y="0.993174" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jump Jeff 2.png">
+                    <frame duration="1" hotspotX="0.382979" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\Jump Jeff 2.png">
                         <collision-poly>
-                            <point x="0.306452" y="0.132813" />
-                            <point x="0.356305" y="0.138021" />
-                            <point x="0.373901" y="0.514324" />
-                            <point x="0.284457" y="0.514323" />
+                            <point x="0.127665" y="0" />
+                            <point x="0.851064" y="0.00689703" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
-                    <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                    <frame duration="1" hotspotX="0.387097" hotspotY="0.123457" original-source="C:\Users\gui\Downloads\base_jeff.png">
                         <collision-poly>
-                            <point x="0.00701754" y="0.224561" />
-                            <point x="0.99527" y="0.301754" />
-                            <point x="0.991762" y="0.77193" />
-                            <point x="0" y="0.77193" />
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="4" loop="0" name="RunningL" pingpong="0" repeatcount="1" repeatto="0" sid="3828706177330953" speed="19">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 7.png">
                         <collision-poly>
-                            <point x="0.303519" y="0.135417" />
-                            <point x="0.369502" y="0.151042" />
-                            <point x="0.392962" y="0.514323" />
-                            <point x="0.282991" y="0.514323" />
+                            <point x="0.134751" y="8.85322e-007" />
+                            <point x="0.773055" y="0.0409565" />
+                            <point x="1" y="0.993174" />
+                            <point x="0" y="0.993174" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run L Jeff 1.png">
+                    <frame duration="1" hotspotX="0.385827" hotspotY="0.127148" original-source="C:\Users\gui\Downloads\run L Jeff 1.png">
                         <collision-poly>
-                            <point x="0.333578" y="0.136719" />
-                            <point x="0.393695" y="0.135417" />
-                            <point x="0.398094" y="0.514323" />
-                            <point x="0.284457" y="0.514323" />
+                            <point x="0.362208" y="0.00343711" />
+                            <point x="1" y="8.91407e-007" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run L Jeff 2.png">
+                    <frame duration="1" hotspotX="0.383838" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\run L Jeff 2.png">
                         <collision-poly>
-                            <point x="0.321847" y="0.135417" />
-                            <point x="0.384898" y="0.134115" />
-                            <point x="0.391496" y="0.514323" />
-                            <point x="0.285924" y="0.513021" />
+                            <point x="0.040397" y="0" />
+                            <point x="0.9091" y="0" />
+                            <point x="1" y="0.996552" />
+                            <point x="0" y="0.993104" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\run L Jeff 3.png">
+                    <frame duration="1" hotspotX="0.388889" hotspotY="0.12585" original-source="C:\Users\gui\Downloads\run L Jeff 3.png">
                         <collision-poly>
-                            <point x="0.312317" y="0.141927" />
-                            <point x="0.382698" y="0.128906" />
-                            <point x="0.385631" y="0.514323" />
-                            <point x="0.285924" y="0.514323" />
+                            <point x="0.238098" y="0.0170066" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.989796" />
+                            <point x="0" y="0.989796" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -715,11 +715,32 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4700811090929484" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png">
+                        <collision-poly>
+                            <point x="0.0107527" y="0.210884" />
+                            <point x="0.198925" y="0.207483" />
+                            <point x="0.344086" y="0.00680272" />
+                            <point x="0.66129" y="0.00680272" />
+                            <point x="0.844086" y="0.217687" />
+                            <point x="0.983871" y="0.214286" />
+                            <point x="0.5" y="0.993197" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="Text12" sid="1414191288176734">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="DestroyerWall" sid="9663109482463299">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9523263184640513" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text13" sid="4101816384798656">
             <plugin id="Text" />
         </object-type>
     </object-folder>
@@ -744,6 +765,7 @@
         <layout>Level 15.xml</layout>
         <layout>Level 16.xml</layout>
         <layout>Level 17.xml</layout>
+        <layout>Level 18.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
