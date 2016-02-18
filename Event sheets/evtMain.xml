@@ -124,14 +124,24 @@
             <conditions>
                 <condition id="4" inverted="1" name="Is any playing" sid="5989996918526686" type="inGameMusic" />
             </conditions>
-            <actions>
-                <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
-                    <param id="0" name="Audio file">inGameSound</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">50</param>
-                    <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="7696822890500112">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="2318128565700189" type="inGameMusic">
+                            <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
+                            <param id="0" name="Audio file">inGameSound</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">50</param>
+                            <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="1680738395685589">
             <conditions>
