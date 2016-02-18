@@ -865,6 +865,7 @@
     <sounds-folder>
         <file name="inGameSound.ogg" />
         <file name="boss1Music.ogg" />
+        <file name="InGameSound2.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
