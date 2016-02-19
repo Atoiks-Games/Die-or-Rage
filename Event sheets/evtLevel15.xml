@@ -16,7 +16,7 @@
                 </action>
                 <action id="-9" name="Destroy" sid="2155946904062912" type="Bullet" />
                 <action id="-5" name="Set width" sid="502570858268309" type="HeathBar">
-                    <param id="0" name="Width">HeathBar.Width-10</param>
+                    <param id="0" name="Width">HeathBar.Width-20</param>
                 </action>
             </actions>
         </event-block>
