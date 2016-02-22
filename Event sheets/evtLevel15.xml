@@ -16,14 +16,14 @@
                 </action>
                 <action id="-9" name="Destroy" sid="2155946904062912" type="Bullet" />
                 <action id="-5" name="Set width" sid="502570858268309" type="HeathBar">
-                    <param id="0" name="Width">HeathBar.Width-10</param>
+                    <param id="0" name="Width">HeathBar.Width - 15</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="90057709837909">
             <conditions>
                 <condition id="-5" name="Compare width" sid="281373666661896" type="HeathBar">
-                    <param id="0" name="Comparison">0</param>
+                    <param id="0" name="Comparison">3</param>
                     <param id="1" name="Width">0</param>
                 </condition>
             </conditions>

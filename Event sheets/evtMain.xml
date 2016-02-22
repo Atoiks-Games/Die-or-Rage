@@ -124,14 +124,24 @@
             <conditions>
                 <condition id="4" inverted="1" name="Is any playing" sid="5989996918526686" type="inGameMusic" />
             </conditions>
-            <actions>
-                <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
-                    <param id="0" name="Audio file">inGameSound</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">50</param>
-                    <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="7696822890500112">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="2318128565700189" type="inGameMusic">
+                            <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
+                            <param id="0" name="Audio file">inGameSound</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">50</param>
+                            <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="1680738395685589">
             <conditions>
@@ -457,15 +467,24 @@
                 <action id="-16" name="Wait" sid="5471375926589111" type="System">
                     <param id="0" name="Seconds">1.0</param>
                 </action>
-                <action id="-26" name="Restart layout" sid="7263949974592954" type="System" />
-                <action id="-9" name="Set value" sid="16990190987344" type="System">
-                    <param id="0" name="Variable">sprRyanAnimation</param>
-                    <param id="1" name="Value">&quot;Idle&quot;</param>
-                </action>
-                <action id="-22" name="Set layout angle" sid="5666947754484653" type="System">
-                    <param id="0" name="Angle">0</param>
-                </action>
             </actions>
+            <sub-events>
+                <event-block sid="2016989244186133">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="1884720934815645" type="sprRyan" />
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="7263949974592954" type="System" />
+                        <action id="-9" name="Set value" sid="16990190987344" type="System">
+                            <param id="0" name="Variable">sprRyanAnimation</param>
+                            <param id="1" name="Value">&quot;Idle&quot;</param>
+                        </action>
+                        <action id="-22" name="Set layout angle" sid="5666947754484653" type="System">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="6081627553566961">
             <conditions>
@@ -590,6 +609,69 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="5620344579628237">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1984532471399554" type="Bloop">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5332309376163376" type="Bloop" />
+                <action id="-9" name="Destroy" sid="2514091325028089" type="SlimeBlock" />
+            </actions>
+        </event-block>
+        <event-block sid="7826272164692499">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5545648028501454" type="Bloop">
+                    <param id="0" name="Object">sprLoosePlatform</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6208600931690824" type="Bloop" />
+            </actions>
+        </event-block>
+        <event-block sid="479229638307673">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5746712241013211" type="HealthDart">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3413498477917605" type="HealthDart" />
+                <action id="-26" name="Restart layout" sid="6000204666342799" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="9908686589198925">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6819890920450522" type="System">
+                    <param id="0" name="Interval (seconds)">1.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="1319659151086795" type="Blap">
+                    <param id="0" name="Object">HealthDart</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="9843405062307784" type="HealthDart">
+                    <param id="0" name="X">(sprRyan.X)</param>
+                    <param id="1" name="Y">(sprRyan.Y)</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="8282821351149587" type="HealthDart">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1754612994278282">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3466114191576317" type="HealthDart">
+                    <param id="0" name="Object">SlimeBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7196636154883988" type="HealthDart" />
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

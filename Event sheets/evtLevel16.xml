@@ -42,10 +42,22 @@
             <actions>
                 <action id="33" name="Stop all" sid="3828374309286038" type="inGameMusic" />
                 <action id="0" name="Play" sid="1922911292550456" type="inGameMusic">
-                    <param id="0" name="Audio file">inGameSound</param>
+                    <param id="0" name="Audio file">InGameSound2</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">50</param>
-                    <param id="1" name="Tag (optional)">&quot;inGameSound&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;inGameSound2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9347161306671799">
+            <conditions>
+                <condition id="5" name="Is tag playing" sid="2032633319145101" type="inGameMusic">
+                    <param id="0" name="Tag">&quot;inGameSound&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="4303109652967876" type="inGameMusic">
+                    <param id="0" name="Tag">&quot;inGameSound&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -19,13 +19,16 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -262,12 +265,12 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
-                    <frame duration="1" hotspotX="0.387097" hotspotY="0.123457" original-source="C:\Users\gui\Downloads\base_jeff.png">
+                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="1" y="1" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
+                            <point x="1" y="0.452055" />
+                            <point x="0" y="0.452055" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -743,6 +746,69 @@
         <object-type name="Text13" sid="4101816384798656">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text14" sid="6474847939125345">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text15" sid="6026732599157116">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Bloop" sid="6801551951144721">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Car" sid="3170619435917267">
+                    <behavior id="Car" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9356946933258358" speed="5">
+                    <frame duration="1" hotspotX="0.31875" hotspotY="0.969072" original-source="C:\Users\ajbim\Downloads\Bloop.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text16" sid="3172146415902948">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text17" sid="3326042850817923">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Blap" sid="4215394916928585">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="907236327105839">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Turret" sid="1511575796328721">
+                    <behavior id="Turret" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1189235382244" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HealthDart" sid="5387077180318375">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="2653510523667963">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="3269979821061819">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8534737761924203" speed="5">
+                    <frame duration="1" hotspotX="0.488889" hotspotY="0.507042" original-source="C:\Users\ajbim\Downloads\Healbot Missle.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text18" sid="9406503054161828">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text19" sid="6787771943563288">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -766,6 +832,12 @@
         <layout>Level 16.xml</layout>
         <layout>Level 17.xml</layout>
         <layout>Level 18.xml</layout>
+        <layout>Level 19.xml</layout>
+        <layout>Level 20.xml</layout>
+        <layout>Level 21.xml</layout>
+        <layout>Level 22.xml</layout>
+        <layout>Level 23.xml</layout>
+        <layout>Level 24.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
@@ -797,6 +869,7 @@
     <sounds-folder>
         <file name="inGameSound.ogg" />
         <file name="boss1Music.ogg" />
+        <file name="InGameSound2.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
