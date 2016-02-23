@@ -199,6 +199,12 @@
                 <action behavior="AnvilPlaf" id="11" name="Set enabled" sid="2558712117458376" type="sprAnvil">
                     <param id="0" name="State">1</param>
                 </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4371141772606777" type="GreenPlatform">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5574970862470104" type="GreenPlatform">
+                    <param id="0" name="Visibility">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2155436040430613">
@@ -211,6 +217,12 @@
                 </action>
                 <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="sprLoosePlatform">
                     <param id="0" name="State">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="149688133079025" type="GreenPlatform">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="1123618251719072" type="GreenPlatform">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>

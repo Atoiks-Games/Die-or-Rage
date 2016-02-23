@@ -809,6 +809,29 @@
         <object-type name="Text19" sid="6787771943563288">
             <plugin id="Text" />
         </object-type>
+        <object-type name="GreenPlatform" sid="1970106968416757">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7215560795694625">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9700371038804335" speed="5">
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.285714" original-source="C:\Users\gui\Downloads\Orange Platform Active.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.996894" y="1" />
+                            <point x="0.00310559" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text20" sid="3090114488055425">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -838,6 +861,7 @@
         <layout>Level 22.xml</layout>
         <layout>Level 23.xml</layout>
         <layout>Level 24.xml</layout>
+        <layout>Level 25.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
