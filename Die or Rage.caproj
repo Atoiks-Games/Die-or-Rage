@@ -832,6 +832,12 @@
         <object-type name="Text20" sid="3090114488055425">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text21" sid="9001357377544045">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text22" sid="5696405890707031">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -862,6 +868,7 @@
         <layout>Level 23.xml</layout>
         <layout>Level 24.xml</layout>
         <layout>Level 25.xml</layout>
+        <layout>Level 26.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
