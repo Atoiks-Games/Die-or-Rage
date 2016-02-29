@@ -685,5 +685,15 @@
                 <action id="-9" name="Destroy" sid="7196636154883988" type="HealthDart" />
             </actions>
         </event-block>
+        <event-block sid="2045552542647982">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4357650385345448" type="HealthDart">
+                    <param id="0" name="Object">GreenPlatform</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4817188738238745" type="HealthDart" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
