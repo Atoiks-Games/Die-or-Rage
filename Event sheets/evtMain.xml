@@ -707,5 +707,24 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="9678751165756456">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6524631399866713" type="Bullet">
+                    <param id="0" name="Object">Blap</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7927834738393044" type="Blap" />
+                <action id="-9" name="Destroy" sid="3394570737571456" type="Bullet" />
+            </actions>
+        </event-block>
+        <event-block sid="660040149158945">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="4481286658296144" type="HealthDart" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1004367214109418" type="HealthDart" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
