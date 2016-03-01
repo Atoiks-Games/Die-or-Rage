@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>429</x>
-                        <y>247.5</y>
+                        <x>428</x>
+                        <y>249</y>
                         <z>0</z>
                         <width>857</width>
                         <height>495</height>
@@ -142,7 +142,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="118">
+                <instance type="Orangeplat" uid="118">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -171,7 +171,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="119">
+                <instance type="Orangeplat" uid="119">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -200,7 +200,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="120">
+                <instance type="Orangeplat" uid="120">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -331,7 +331,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="113">
+                <instance type="Orangeplat" uid="113">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -357,6 +357,33 @@
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
                         <angle>-0.460094213</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text25" uid="382">
+                    <properties>
+                        <text>Avoid this dirt. It is not what it seems.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>327</x>
+                        <y>421</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

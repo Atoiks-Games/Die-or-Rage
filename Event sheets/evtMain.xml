@@ -190,10 +190,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3772200574210158" type="sprLoosePlatform">
+                <action id="-15" name="Set visible" sid="3772200574210158" type="Orangeplat">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="sprLoosePlatform">
+                <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="Orangeplat">
                     <param id="0" name="State">0</param>
                 </action>
                 <action behavior="AnvilPlaf" id="11" name="Set enabled" sid="2558712117458376" type="sprAnvil">
@@ -212,10 +212,10 @@
                 <condition id="-22" name="Else" sid="9351980388259779" type="System" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3844407362074521" type="sprLoosePlatform">
+                <action id="-15" name="Set visible" sid="3844407362074521" type="Orangeplat">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="sprLoosePlatform">
+                <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="Orangeplat">
                     <param id="0" name="State">1</param>
                 </action>
                 <action id="-15" name="Set visible" sid="149688133079025" type="GreenPlatform">
@@ -636,7 +636,7 @@
         <event-block sid="7826272164692499">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="5545648028501454" type="Bloop">
-                    <param id="0" name="Object">sprLoosePlatform</param>
+                    <param id="0" name="Object">Orangeplat</param>
                 </condition>
             </conditions>
             <actions>
@@ -693,6 +693,18 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="4817188738238745" type="HealthDart" />
+            </actions>
+        </event-block>
+        <event-block sid="2664047712699754">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="294630355207745" type="Bullet">
+                    <param id="0" name="Object">Orangeplat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" sid="3854427033196926" type="Bullet">
+                    <param id="0" name="Object">Orangeplat</param>
+                </action>
             </actions>
         </event-block>
     </events>

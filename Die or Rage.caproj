@@ -372,7 +372,7 @@
         <object-type name="txtInstructions1" sid="1078987437207329">
             <plugin id="Text" />
         </object-type>
-        <object-type name="sprLoosePlatform" sid="1573846639824846">
+        <object-type name="Orangeplat" sid="1573846639824846">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="554786183386613">
@@ -450,9 +450,9 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3175330609698651" speed="5">
                     <frame duration="1" hotspotX="1.56545" hotspotY="2.48344" original-source="C:\Users\gui\Downloads\Anvil.png">
                         <collision-poly>
-                            <point x="0.560209" y="1" />
-                            <point x="0.549738" y="0.986755" />
-                            <point x="0.549738" y="1" />
+                            <point x="0.0785335" y="0.97351" />
+                            <point x="0.973822" y="0.980132" />
+                            <point x="0.544502" y="0.966888" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -676,6 +676,11 @@
         </object-type>
         <object-type name="Portal" sid="3037839886903572">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="8578012975131664">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2817078165359329" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -838,6 +843,15 @@
         <object-type name="Text22" sid="5696405890707031">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text23" sid="360619233636925">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text24" sid="4189522907193929">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text25" sid="4294768724298926">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -869,6 +883,7 @@
         <layout>Level 24.xml</layout>
         <layout>Level 25.xml</layout>
         <layout>Level 26.xml</layout>
+        <layout>Level 27.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
