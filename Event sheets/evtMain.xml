@@ -532,18 +532,26 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="1891587480157584">
+        <event-block sid="937327511735404">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="822750524971145" type="GunFloating">
-                    <param id="0" name="Object">sprRyan</param>
-                </condition>
+                <condition behavior="Pin" id="0" inverted="1" name="Is pinned" sid="4675116186957752" type="GunFloating" />
             </conditions>
-            <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="6335293837770584" type="GunFloating">
-                    <param id="0" name="Pin to">sprRyan</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="725439218434802">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="1342483025616073" type="GunFloating">
+                            <param id="0" name="Object">sprRyan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="9924374630761317" type="GunFloating">
+                            <param id="0" name="Pin to">sprRyan</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="677860883401042">
             <conditions>
