@@ -788,7 +788,7 @@
         <event-block sid="3792793415407127">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="5064278483249388" type="System">
-                    <param id="0" name="Interval (seconds)">1.0</param>
+                    <param id="0" name="Interval (seconds)">random(5)</param>
                 </condition>
             </conditions>
             <actions>
@@ -801,7 +801,7 @@
                     <param id="0" name="Angle">90</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" sid="8501335036378665" type="Bomb">
-                    <param id="0" name="Speed">20</param>
+                    <param id="0" name="Speed">80</param>
                 </action>
             </actions>
         </event-block>
@@ -844,6 +844,44 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="8112142784222203" type="Bomb" />
+            </actions>
+        </event-block>
+        <event-block sid="3099438395246785">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7672195060899272" type="System" />
+                <condition id="-1" name="Compare X" sid="3546612028694714" type="SWARM">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">780</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="5479715606902113" type="SWARM">
+                    <param id="0" name="X">SWARM.X+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6053506786786568">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="6788700177471597" type="SWARM">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">780</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="4923075045490663" type="SWARM">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7875404834426673">
+            <conditions>
+                <condition id="-9" inverted="1" name="Is visible" sid="5724350514057331" type="SWARM" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="5770815100209304" type="sprLava">
+                    <param id="0" name="X">379</param>
+                    <param id="1" name="Y">334</param>
+                </action>
             </actions>
         </event-block>
     </events>
