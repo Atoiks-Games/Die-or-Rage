@@ -942,6 +942,7 @@
         <event-sheet>evtLevel15.xml</event-sheet>
         <event-sheet>evtLevel16.xml</event-sheet>
         <event-sheet>evtLevel28.xml</event-sheet>
+        <event-sheet>evtLevel30.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="35" />

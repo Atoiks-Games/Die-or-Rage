@@ -873,16 +873,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7875404834426673">
-            <conditions>
-                <condition id="-9" inverted="1" name="Is visible" sid="5724350514057331" type="SWARM" />
-            </conditions>
-            <actions>
-                <action id="-3" name="Set position" sid="5770815100209304" type="sprLava">
-                    <param id="0" name="X">379</param>
-                    <param id="1" name="Y">334</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
