@@ -801,7 +801,7 @@
                     <param id="0" name="Angle">90</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" sid="8501335036378665" type="Bomb">
-                    <param id="0" name="Speed">80</param>
+                    <param id="0" name="Speed">160</param>
                 </action>
             </actions>
         </event-block>
