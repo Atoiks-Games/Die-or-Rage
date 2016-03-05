@@ -17,10 +17,11 @@
                 </action>
             </actions>
         </event-block>
+        <comment>inGameSound2 because its the sketchy one (not the anoying one)</comment>
         <event-block sid="3557546306359568">
             <conditions>
                 <condition id="5" name="Is tag playing" sid="4234343418546362" type="inGameMusic">
-                    <param id="0" name="Tag">&quot;inGameSound&quot;</param>
+                    <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
                 </condition>
             </conditions>
             <actions>

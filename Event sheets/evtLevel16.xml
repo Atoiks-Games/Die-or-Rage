@@ -44,7 +44,7 @@
                 <action id="0" name="Play" sid="1922911292550456" type="inGameMusic">
                     <param id="0" name="Audio file">InGameSound2</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">50</param>
+                    <param id="3" name="Volume">100</param>
                     <param id="1" name="Tag (optional)">&quot;inGameSound2&quot;</param>
                 </action>
             </actions>
