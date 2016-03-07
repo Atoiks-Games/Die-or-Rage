@@ -30,6 +30,7 @@
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -63,6 +64,9 @@
             <behaviors>
                 <behavior-type name="Platform" sid="9395584529892024">
                     <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="8811095263790059">
+                    <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -931,6 +935,7 @@
         <layout>Level 28.xml</layout>
         <layout>Level 29.xml</layout>
         <layout>Level 30.xml</layout>
+        <layout>Level 31.xml</layout>
         <layout>IntroVideoHell.xml</layout>
     </layout-folder>
     <event-folder>
@@ -943,6 +948,7 @@
         <event-sheet>evtLevel16.xml</event-sheet>
         <event-sheet>evtLevel28.xml</event-sheet>
         <event-sheet>evtLevel30.xml</event-sheet>
+        <event-sheet>evtLevel31.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="35" />
