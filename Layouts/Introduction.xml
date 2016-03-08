@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>IntroVideo</name>
+    <name>Introduction</name>
     <sid>8998460601947745</sid>
     <event-sheet>evtIntroVideo</event-sheet>
     <size>
@@ -29,33 +29,10 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Video" uid="32">
-                    <properties>
-                        <webm-source></webm-source>
-                        <ogg-theora-source></ogg-theora-source>
-                        <h264-source></h264-source>
-                        <autoplay>Yes</autoplay>
-                        <play-in-background>No</play-in-background>
-                        <initial-visibility>Visible</initial-visibility>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>32</x>
-                        <y>30</y>
-                        <z>0</z>
-                        <width>802</width>
-                        <height>382</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="btnSkip" uid="34">
                     <properties>
                         <type>Button</type>
-                        <text>Skip</text>
+                        <text>Next</text>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
@@ -74,6 +51,33 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="Text28" uid="32">
+                    <properties>
+                        <text>This is a story about a man named Ryan. Ryan had a beautiful wife, who was taken by the Demon Lord to the lowest level of the Underworld. The only way for Ryan to get to his wife, is to die, over and over and over again, until His guards are defeated and He is forced to let Ryan enter the Underworld. Thus begins Ryan&apos;s quest! You must help Ryan. I will be there too, to guide you and Ryan. Good luck!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>10</x>
+                        <y>16</y>
+                        <z>0</z>
+                        <width>837</width>
+                        <height>403</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

@@ -20,7 +20,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="7812001087618521" type="System">
-                            <param id="0" name="Layout">IntroVideo</param>
+                            <param id="0" name="Layout">Introduction</param>
                         </action>
                     </actions>
                 </event-block>
@@ -55,7 +55,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="8141251981898033" type="System">
-                    <param id="0" name="Layout">IntroVideo</param>
+                    <param id="0" name="Layout">Introduction</param>
                 </action>
             </actions>
         </event-block>

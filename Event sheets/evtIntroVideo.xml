@@ -3,69 +3,15 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtIntroVideo</name>
     <events>
-        <event-block sid="4426128388851173">
-            <conditions>
-                <condition id="2" name="Has ended" sid="4779167952577993" type="Video" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="5119650646660277">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="3027314477706436" type="System">
-                            <param id="0" name="Variable">playIntroVideo</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="6348090212958125">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="9835653038508837" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="5686024798325287" type="System">
-                            <param id="0" name="Layout">StartPage</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="7096242906561995">
             <conditions>
                 <condition id="0" name="On clicked" sid="9692468588269297" type="btnSkip" />
             </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="1307601338425717">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="7207076312045362" type="System">
-                            <param id="0" name="Variable">playIntroVideo</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="8871649058477374" type="System">
-                            <param id="0" name="Variable">playIntroVideo</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="2370134172918884" type="System">
-                            <param id="0" name="Layout">Level 1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="5789378736275652">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="9509237902229182" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="9469798891404591" type="System">
-                            <param id="0" name="Layout">StartPage</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="9152855207408318" type="System">
+                    <param id="0" name="Layout">&quot;Level 1&quot;</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

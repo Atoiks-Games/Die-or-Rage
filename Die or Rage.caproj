@@ -900,11 +900,23 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text28" sid="4565462262670749">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text29" sid="6442789681151352">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text30" sid="8242533085417818">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text31" sid="4576602172845559">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>StartPage.xml</layout>
-        <layout>IntroVideo.xml</layout>
+        <layout>Introduction.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
@@ -935,8 +947,7 @@
         <layout>Level 28.xml</layout>
         <layout>Level 29.xml</layout>
         <layout>Level 30.xml</layout>
-        <layout>Level 31.xml</layout>
-        <layout>IntroVideoHell.xml</layout>
+        <layout>Ending.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>evtMain.xml</event-sheet>
@@ -948,7 +959,6 @@
         <event-sheet>evtLevel16.xml</event-sheet>
         <event-sheet>evtLevel28.xml</event-sheet>
         <event-sheet>evtLevel30.xml</event-sheet>
-        <event-sheet>evtLevel31.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="35" />
