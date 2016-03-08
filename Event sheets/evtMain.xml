@@ -190,10 +190,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3772200574210158" type="sprLoosePlatform">
+                <action id="-15" name="Set visible" sid="3772200574210158" type="Orangeplat">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="sprLoosePlatform">
+                <action behavior="Solid" id="0" name="Set enabled" sid="4746673113365961" type="Orangeplat">
                     <param id="0" name="State">0</param>
                 </action>
                 <action behavior="AnvilPlaf" id="11" name="Set enabled" sid="2558712117458376" type="sprAnvil">
@@ -212,10 +212,10 @@
                 <condition id="-22" name="Else" sid="9351980388259779" type="System" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="3844407362074521" type="sprLoosePlatform">
+                <action id="-15" name="Set visible" sid="3844407362074521" type="Orangeplat">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="sprLoosePlatform">
+                <action behavior="Solid" id="0" name="Set enabled" sid="4917906518634754" type="Orangeplat">
                     <param id="0" name="State">1</param>
                 </action>
                 <action id="-15" name="Set visible" sid="149688133079025" type="GreenPlatform">
@@ -532,18 +532,26 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="1891587480157584">
+        <event-block sid="937327511735404">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="822750524971145" type="GunFloating">
-                    <param id="0" name="Object">sprRyan</param>
-                </condition>
+                <condition behavior="Pin" id="0" inverted="1" name="Is pinned" sid="4675116186957752" type="GunFloating" />
             </conditions>
-            <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="6335293837770584" type="GunFloating">
-                    <param id="0" name="Pin to">sprRyan</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="725439218434802">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="1342483025616073" type="GunFloating">
+                            <param id="0" name="Object">sprRyan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="9924374630761317" type="GunFloating">
+                            <param id="0" name="Pin to">sprRyan</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="677860883401042">
             <conditions>
@@ -636,7 +644,7 @@
         <event-block sid="7826272164692499">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="5545648028501454" type="Bloop">
-                    <param id="0" name="Object">sprLoosePlatform</param>
+                    <param id="0" name="Object">Orangeplat</param>
                 </condition>
             </conditions>
             <actions>
@@ -693,6 +701,176 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="4817188738238745" type="HealthDart" />
+            </actions>
+        </event-block>
+        <event-block sid="2664047712699754">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="294630355207745" type="Bullet">
+                    <param id="0" name="Object">Orangeplat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" sid="3854427033196926" type="Bullet">
+                    <param id="0" name="Object">Orangeplat</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9678751165756456">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6524631399866713" type="Bullet">
+                    <param id="0" name="Object">Blap</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7927834738393044" type="Blap" />
+                <action id="-9" name="Destroy" sid="3394570737571456" type="Bullet" />
+            </actions>
+        </event-block>
+        <event-block sid="660040149158945">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="4481286658296144" type="HealthDart" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1004367214109418" type="HealthDart" />
+            </actions>
+        </event-block>
+        <event-block sid="1612734899990143">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="323331158480081" type="Bomb">
+                    <param id="0" name="Object">Sheild</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1886033083742286" type="Bomb" />
+                <action id="-5" name="Set width" sid="7127735860349699" type="Sheild">
+                    <param id="0" name="Width">Sheild.Width-20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2572050905799542">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4461355833167827" type="Bullet">
+                    <param id="0" name="Object">Sheild</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4596452356319978" type="Bullet" />
+                <action id="-5" name="Set width" sid="2848629841405331" type="Sheild">
+                    <param id="0" name="Width">Sheild.Width-20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7877255028719846">
+            <conditions>
+                <condition id="-5" name="Compare width" sid="6437222470069876" type="Sheild">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Width">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4896992911988358" type="Sheild" />
+            </actions>
+        </event-block>
+        <event-block sid="3444467294097051">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2109702970511511" type="Bullet">
+                    <param id="0" name="Object">SWARM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6678710999698398" type="SWARM" />
+                <action id="-9" name="Destroy" sid="9428681995334996" type="Bullet" />
+                <action behavior="Rotate" id="0" name="Set speed" sid="3657813154197019" type="GunFloating">
+                    <param id="0" name="Speed">GunFloating.Rotate.Speed+20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3792793415407127">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="5064278483249388" type="System">
+                    <param id="0" name="Interval (seconds)">random(5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="381518055290273" type="SWARM">
+                    <param id="0" name="Object">Bomb</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="8326655589135559" type="Bomb">
+                    <param id="0" name="Angle">90</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="8501335036378665" type="Bomb">
+                    <param id="0" name="Speed">160</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4590339215455447">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2558375846351658" type="Bomb">
+                    <param id="0" name="Object">Bullet</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3262162983825578" type="Bullet" />
+                <action id="-9" name="Destroy" sid="3591225870242387" type="Bomb" />
+            </actions>
+        </event-block>
+        <event-block sid="8470242974231741">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1979624901798732" type="Bomb">
+                    <param id="0" name="Object">sprRyan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8015177359891953" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="8579641446026429">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7208945351176812" type="Bomb">
+                    <param id="0" name="Object">Orangeplat</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="4" name="Bounce off object" sid="4564246650824446" type="Bomb">
+                    <param id="0" name="Object">Orangeplat</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8874203910040446">
+            <conditions>
+                <condition id="-3" inverted="1" name="Is on-screen" sid="8138928865585304" type="Bomb" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8112142784222203" type="Bomb" />
+            </actions>
+        </event-block>
+        <event-block sid="3099438395246785">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7672195060899272" type="System" />
+                <condition id="-1" name="Compare X" sid="3546612028694714" type="SWARM">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">780</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="5479715606902113" type="SWARM">
+                    <param id="0" name="X">SWARM.X+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6053506786786568">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="6788700177471597" type="SWARM">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="X co-ordinate">780</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="4923075045490663" type="SWARM">
+                    <param id="0" name="X">0</param>
+                </action>
             </actions>
         </event-block>
     </events>

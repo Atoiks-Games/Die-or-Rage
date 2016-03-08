@@ -97,6 +97,11 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -161,7 +166,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="285">
+                <instance type="Orangeplat" uid="285">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -268,7 +273,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="289">
+                <instance type="Orangeplat" uid="289">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -359,7 +364,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprLoosePlatform" uid="292">
+                <instance type="Orangeplat" uid="292">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -470,7 +475,7 @@
                 </instance>
                 <instance type="Text18" uid="297">
                     <properties>
-                        <text>Don&apos;t let his darts touch you! They will put you to sleep!</text>
+                        <text>This is Blap. He works for Him. Don&apos;t let his darts touch you! They will put you to sleep!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>255,255,255</color>
@@ -483,8 +488,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>214</x>
-                        <y>134</y>
+                        <x>267</x>
+                        <y>14</y>
                         <z>0</z>
                         <width>405</width>
                         <height>79</height>
