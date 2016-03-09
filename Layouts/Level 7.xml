@@ -150,15 +150,15 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
                         <behavior-instance type="CustomMovement">
                             <properties>
                                 <stepping-mode>Linear</stepping-mode>
                                 <pixels-per-step>25</pixels-per-step>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Jumpthru">
+                            <properties>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>

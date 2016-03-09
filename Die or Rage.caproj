@@ -524,11 +524,11 @@
         <object-type name="MovingPlatform" sid="9914406066011315">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="1153092573988281">
-                    <behavior id="solid" />
-                </behavior-type>
                 <behavior-type name="CustomMovement" sid="4359375813244705">
                     <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Jumpthru" sid="8848367544115476">
+                    <behavior id="jumpthru" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
