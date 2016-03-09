@@ -338,7 +338,7 @@
                 </instance>
                 <instance type="Text8" uid="174">
                     <properties>
-                        <text>Use the voidswalker to your advantage!</text>
+                        <text>If the Voidswalker shoots you, you will be randomly teleported.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -354,8 +354,8 @@
                         <x>55</x>
                         <y>110</y>
                         <z>0</z>
-                        <width>152</width>
-                        <height>44</height>
+                        <width>235</width>
+                        <height>87</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
