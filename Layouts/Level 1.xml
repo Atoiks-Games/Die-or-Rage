@@ -111,7 +111,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtInstructions1" uid="6">
+                <instance type="txtInstructionslvl1" uid="6">
                     <properties>
                         <text>Use Arrow Keys To Move. Find A Way To Die.</text>
                         <initial-visibility>Visible</initial-visibility>

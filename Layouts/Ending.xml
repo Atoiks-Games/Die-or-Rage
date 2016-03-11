@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="btnSkip" uid="13">
+                <instance type="btnNext" uid="13">
                     <properties>
                         <type>Button</type>
                         <text>Next</text>
@@ -53,7 +53,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Text30" uid="12">
+                <instance type="txtEndGame" uid="12">
                     <properties>
                         <text>Ryan is on his own now. Hopefully he reunites with his wife, despite His efforts to stop Ryan. Thank you for your help. You should feel proud!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -80,7 +80,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text31" uid="454">
+                <instance type="txtCredits" uid="454">
                     <properties>
                         <text>Thanks For Playing! Contributors: Alex Bimm, Paul Teng, Will Huckins, Guilherme Sperotto, Loay Al Rashdi, Jeffery Liao, All The Playtesters, and Ryan Richardson.</text>
                         <initial-visibility>Visible</initial-visibility>

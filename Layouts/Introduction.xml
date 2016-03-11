@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="btnSkip" uid="34">
+                <instance type="btnNext" uid="34">
                     <properties>
                         <type>Button</type>
                         <text>Next</text>
@@ -53,7 +53,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Text28" uid="32">
+                <instance type="txtIntro" uid="32">
                     <properties>
                         <text>This is a story about a man named Ryan. Ryan had a beautiful wife, who was taken by the Demon Lord to the lowest level of the Underworld. The only way for Ryan to get to his wife, is to die, over and over and over again, until His guards are defeated and He is forced to let Ryan enter the Underworld. Thus begins Ryan&apos;s quest! You must help Ryan. I will be there too, to guide you and Ryan. Good luck!</text>
                         <initial-visibility>Visible</initial-visibility>

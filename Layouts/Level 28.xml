@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="background" uid="394">
+                <instance type="sprStansteadBackground" uid="394">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TeleportBlock" uid="390">
+                <instance type="sprTeleportBlock" uid="390">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -118,7 +118,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GunFloating" uid="385">
+                <instance type="sprGunFloating" uid="385">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -149,7 +149,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="386">
+                <instance type="sprOrangeplat" uid="386">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -178,7 +178,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Blap" uid="383">
+                <instance type="sprBlap" uid="383">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -226,7 +226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Blap" uid="387">
+                <instance type="sprBlap" uid="387">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -274,7 +274,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Blap" uid="388">
+                <instance type="sprBlap" uid="388">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -322,7 +322,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Blap" uid="389">
+                <instance type="sprBlap" uid="389">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -370,7 +370,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="391">
+                <instance type="sprOrangeplat" uid="391">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -399,7 +399,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Orangeplat" uid="392">
+                <instance type="sprOrangeplat" uid="392">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -474,7 +474,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text26" uid="395">
+                <instance type="txtShootBlaps" uid="395">
                     <properties>
                         <text>Shoot the Blaps and the lava will move!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -501,7 +501,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Blap" uid="396">
+                <instance type="sprBlap" uid="396">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -549,7 +549,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Blap" uid="397">
+                <instance type="sprBlap" uid="397">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

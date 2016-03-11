@@ -5,7 +5,7 @@
     <events>
         <event-block sid="7096242906561995">
             <conditions>
-                <condition id="0" name="On clicked" sid="9692468588269297" type="btnSkip" />
+                <condition id="0" name="On clicked" sid="9692468588269297" type="btnNext" />
             </conditions>
             <actions>
                 <action id="-25" name="Go to layout (by name)" sid="9152855207408318" type="System">

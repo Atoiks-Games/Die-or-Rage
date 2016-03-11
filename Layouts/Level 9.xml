@@ -111,7 +111,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtInstructions1" uid="139">
+                <instance type="txtInstructionslvl1" uid="139">
                     <properties>
                         <text>Haven&apos;t you been here before?</text>
                         <initial-visibility>Visible</initial-visibility>
