@@ -43,8 +43,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>722</x>
-                        <y>438</y>
+                        <x>391</x>
+                        <y>430</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>
@@ -100,6 +100,33 @@
                         <z>0</z>
                         <width>654</width>
                         <height>173</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="txtSite" uid="457">
+                    <properties>
+                        <text>Made with love by Atoiks Games  http://atoiks-games.github.io/</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>616</x>
+                        <y>434</y>
+                        <z>0</z>
+                        <width>269</width>
+                        <height>59</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

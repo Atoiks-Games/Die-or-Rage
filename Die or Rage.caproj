@@ -895,7 +895,7 @@
         <object-type name="txtCredits" sid="4576602172845559">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text" sid="7484385756536185">
+        <object-type name="txtSite" sid="7484385756536185">
             <plugin id="Text" />
         </object-type>
     </object-folder>
