@@ -3,10 +3,10 @@
     <name>Die or Rage</name>
     <description>Another game</description>
     <version>1.0.0.0</version>
-    <author>stansteadPeople</author>
+    <author>Atoiks Games</author>
     <author-email></author-email>
-    <author-website>http://</author-website>
-    <app-id>com.stansteadPeople.dieOrRage</app-id>
+    <author-website>http://atoiks-games.github.io/</author-website>
+    <app-id>com.atoiksGames.dieOrRage</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>22100</saved-with-version>
     <used-plugins>
@@ -893,6 +893,9 @@
             <plugin id="Text" />
         </object-type>
         <object-type name="txtCredits" sid="4576602172845559">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text" sid="7484385756536185">
             <plugin id="Text" />
         </object-type>
     </object-folder>
