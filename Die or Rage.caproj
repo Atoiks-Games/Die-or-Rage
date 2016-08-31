@@ -8,7 +8,7 @@
     <author-website>http://atoiks-games.github.io/</author-website>
     <app-id>com.atoiksGames.dieOrRage</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
-    <saved-with-version>22100</saved-with-version>
+    <saved-with-version>23300</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
@@ -30,6 +30,7 @@
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -62,6 +63,9 @@
             <behaviors>
                 <behavior-type name="Platform" sid="9395584529892024">
                     <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="372915385654099">
+                    <behavior id="wrap" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -510,7 +514,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1311133987892884" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gui\Downloads\Overworld Background.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jliao\Desktop\background.png" />
                 </animation>
             </animation-folder>
         </object-type>

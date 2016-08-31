@@ -42,8 +42,8 @@
                         <x>429</x>
                         <y>244</y>
                         <z>0</z>
-                        <width>859</width>
-                        <height>482</height>
+                        <width>685.184753418</width>
+                        <height>682.833312988</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -71,6 +71,11 @@
                                 <jump-sustain>0</jump-sustain>
                                 <default-controls>Yes</default-controls>
                                 <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>

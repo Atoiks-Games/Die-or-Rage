@@ -39,10 +39,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>428</x>
-                        <y>243</y>
+                        <x>428.092407227</x>
+                        <y>242.416625977</y>
                         <z>0</z>
-                        <width>859</width>
+                        <width>857</width>
                         <height>482</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -209,6 +209,11 @@
                                 <jump-sustain>0</jump-sustain>
                                 <default-controls>Yes</default-controls>
                                 <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
